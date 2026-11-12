@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "batch": "001",
+  "accepted": 7,
+  "by_type": {
+    "design_case": 3,
+    "advanced_component": 4
+  },
+  "baseline_duplicates": 0,
+  "batch_duplicates": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "cross_library_visual": "pending",
+  "historical_candidates_included": 0,
+  "next_batch_focus": "图表与信息图",
+  "assets": [
+    "pptb001-cohort-retention",
+    "pptb001-evidence-to-decision",
+    "pptb001-dependency-swimlanes",
+    "pptb001-sensitivity-matrix",
+    "pptb001-carbon-dashboard",
+    "pptb001-govuk-experience-map",
+    "pptb001-uswds-step-indicator"
+  ]
+}

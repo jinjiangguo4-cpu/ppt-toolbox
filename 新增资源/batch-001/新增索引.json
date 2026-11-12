@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "pptb001-cohort-retention",
+      "library": "component",
+      "name_zh": "队列留存矩阵",
+      "name_en": "Cohort retention",
+      "category": "advanced_component",
+      "subcategory": "advanced_component",
+      "keywords_zh": [
+        "留存",
+        "队列分析",
+        "热力图"
+      ],
+      "keywords_en": [],
+      "style_tags": [
+        "editorial",
+        "vector"
+      ],
+      "industries": [
+        "all"
+      ],
+      "file_path": "高级页面组件/cohort-retention.svg",
+      "format": "svg",
+      "source_url": "",
+      "source_project": "",
+      "source_page": "cohort-retention",
+      "original_resource_id": "cohort-retention",
+      "author": "PPT Toolbox",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "commercial_allowed": true,
+      "attribution_required": false,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "sha256": "f7f61d95d0050c460c79232e92e330443f23fd4653e6e7aee2528638e42360d2",
+      "editability": "SVG-path-editable",
+      "quality_status": "passed_svg_structure",
+      "visual_review": "pending_cross_library",
+      "motif_key": "cohort-retention"
+    },
+    {
+      "id": "pptb001-evidence-to-decision",
+      "library": "component",
+      "name_zh": "证据到决策链",
+      "name_en": "Evidence to decision",
+      "category": "advanced_component",
+      "subcategory": "advanced_component",
+      "keywords_zh": [
+        "证据链",
+        "决策",
+        "研究汇报"
+      ],
+      "keywords_en": [],
+      "style_tags": [
+        "editorial",
+        "vector"
+      ],
+      "industries": [
+        "all"
+      ],
+      "file_path": "高级页面组件/evidence-to-decision.svg",
+      "format": "svg",
+      "source_url": "",
+      "source_project": "",
+      "source_page": "evidence-to-decision",
+      "original_resource_id": "evidence-to-decision",
+      "author": "PPT Toolbox",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "commercial_allowed": true,
+      "attribution_required": false,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "sha256": "9c5978abe8ad86bc2bed29d06cc3ff899c62cd0ff2e3017695ce0404f1374b56",
+      "editability": "SVG-path-editable",
+      "quality_status": "passed_svg_structure",
+      "visual_review": "pending_cross_library",
+      "motif_key": "evidence-to-decision"
+    },
+    {
+      "id": "pptb001-dependency-swimlanes",
+      "library": "component",
+      "name_zh": "跨团队依赖泳道",
+      "name_en": "Delivery dependency map",
+      "category": "advanced_component",
+      "subcategory": "advanced_component",
+      "keywords_zh": [
+        "泳道",
+        "路线图",
+        "依赖管理"
+      ],
+      "keywords_en": [],
+      "style_tags": [
+        "editorial",
+        "vector"
+      ],
+      "industries": [
+        "all"
+      ],
+      "file_path": "高级页面组件/dependency-swimlanes.svg",
+      "format": "svg",
+      "source_url": "",
+      "source_project": "",
+      "source_page": "dependency-swimlanes",
+      "original_resource_id": "dependency-swimlanes",
+      "author": "PPT Toolbox",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "commercial_allowed": true,
+      "attribution_required": false,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "sha256": "be7bc217a1a91e7c5800d256fad20b3fc076d5bd382c83ee20b16023946067b1",
+      "editability": "SVG-path-editable",
+      "quality_status": "passed_svg_structure",
+      "visual_review": "pending_cross_library",
+      "motif_key": "dependency-swimlanes"
+    },
+    {
+      "id": "pptb001-sensitivity-matrix",
+      "library": "component",
+      "name_zh": "双变量情景敏感性矩阵",
+      "name_en": "Scenario sensitivity",
+      "category": "advanced_component",
+      "subcategory": "advanced_component",
+      "keywords_zh": [
+        "情景分析",
+        "敏感性",
+        "经营决策"
+      ],
+      "keywords_en": [],
+      "style_tags": [
+        "editorial",
+        "vector"
+      ],
+      "industries": [
+        "all"
+      ],
+      "file_path": "高级页面组件/sensitivity-matrix.svg",
+      "format": "svg",
+      "source_url": "",
+      "source_project": "",
+      "source_page": "sensitivity-matrix",
+      "original_resource_id": "sensitivity-matrix",
+      "author": "PPT Toolbox",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "commercial_allowed": true,
+      "attribution_required": false,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "sha256": "76e7fa51e6443b4f3a2aa8cfeb2763bdeaf99267de01df503a208c4b4d129e79",
+      "editability": "SVG-path-editable",
+      "quality_status": "passed_svg_structure",
+      "visual_review": "pending_cross_library",
+      "motif_key": "sensitivity-matrix"
+    },
+    {
+      "id": "pptb001-carbon-dashboard",
+      "library": "design_case",
+      "name_zh": "Carbon 数据总览页研究",
+      "name_en": "Carbon Dashboard Study",
+      "category": "design_case",
+      "subcategory": "design_case",
+      "keywords_zh": [
+        "设计研究",
+        "页面结构"
+      ],
+      "keywords_en": [],
+      "style_tags": [
+        "research"
+      ],
+      "industries": [
+        "all"
+      ],
+      "file_path": "设计案例/carbon-dashboard.md",
+      "format": "md",
+      "source_url": "https://v10.carbondesignsystem.com/data-visualization/dashboards/",
+      "source_project": "IBM Carbon Design System",
+      "source_page": "carbon-dashboard",
+      "original_resource_id": "carbon-dashboard",
+      "author": "PPT Toolbox",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "commercial_allowed": true,
+      "attribution_required": false,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "sha256": "2617c9a0520b61018f98e39e7a1b73597555e664e84eb12105b213eda5bfa967",
+      "editability": "Markdown-editable",
+      "quality_status": "passed_source_and_text_review",
+      "visual_review": "pending_cross_library",
+      "motif_key": "carbon-dashboard"
+    },
+    {
+      "id": "pptb001-govuk-experience-map",
+      "library": "design_case",
+      "name_zh": "GOV.UK 公共服务体验地图研究",
+      "name_en": "GOV.UK Experience Map Study",
+      "category": "design_case",
+      "subcategory": "design_case",
+      "keywords_zh": [
+        "设计研究",
+        "页面结构"
+      ],
+      "keywords_en": [],
+      "style_tags": [
+        "research"
+      ],
+      "industries": [
+        "all"
+      ],
+      "file_path": "设计案例/govuk-experience-map.md",
+      "format": "md",
+      "source_url": "https://www.gov.uk/service-manual/user-research/creating-an-experience-map",
+      "source_project": "GOV.UK Service Manual",
+      "source_page": "govuk-experience-map",
+      "original_resource_id": "govuk-experience-map",
+      "author": "PPT Toolbox",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "commercial_allowed": true,
+      "attribution_required": false,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "sha256": "34d8200b75868e5638c0515901eba28906cda6d7f2543e41ed5b65be73b8ed27",
+      "editability": "Markdown-editable",
+      "quality_status": "passed_source_and_text_review",
+      "visual_review": "pending_cross_library",
+      "motif_key": "govuk-experience-map"
+    },
+    {
+      "id": "pptb001-uswds-step-indicator",
+      "library": "design_case",
+      "name_zh": "USWDS 多阶段进度页研究",
+      "name_en": "USWDS Step Indicator Study",
+      "category": "design_case",
+      "subcategory": "design_case",
+      "keywords_zh": [
+        "设计研究",
+        "页面结构"
+      ],
+      "keywords_en": [],
+      "style_tags": [
+        "research"
+      ],
+      "industries": [
+        "all"
+      ],
+      "file_path": "设计案例/uswds-step-indicator.md",
+      "format": "md",
+      "source_url": "https://designsystem.digital.gov/components/step-indicator/",
+      "source_project": "U.S. Web Design System",
+      "source_page": "uswds-step-indicator",
+      "original_resource_id": "uswds-step-indicator",
+      "author": "PPT Toolbox",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "commercial_allowed": true,
+      "attribution_required": false,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "sha256": "095d95286f286bb4f60e5f74b0e3cfdd6d3db7dc2b311865813161f74c3031f4",
+      "editability": "Markdown-editable",
+      "quality_status": "passed_source_and_text_review",
+      "visual_review": "pending_cross_library",
+      "motif_key": "uswds-step-indicator"
+    }
+  ]
+}
