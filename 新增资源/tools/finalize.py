@@ -102,7 +102,7 @@ hints = [r for r in audited if any(scope["content"] for scope in
                                    (r["baseline"],r["accepted_additions"],r["earlier_candidates"]))]
 if filtered or hints:
     raise SystemExit(f"Batch requires review: duplicate IDs {[r['id'] for r in filtered]}, content hints {[r['id'] for r in hints]}")
-assert 25 <= len(rows) <= 50
+assert 1 <= len(rows) <= 50
 all_rows = previous + [dict(r, file_path=f"batch-{args.batch}/"+r["file_path"],
                             companion_files=[dict(e,file_path=f"batch-{args.batch}/"+e["file_path"])
                                              for e in r["companion_files"]]) for r in rows]

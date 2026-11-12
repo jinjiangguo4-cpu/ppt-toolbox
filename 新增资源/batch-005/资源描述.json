@@ -1,0 +1,110 @@
+[
+  {
+    "id": "pptb005-release-gate",
+    "name_zh": "上线放行决策页",
+    "name_en": "release gate",
+    "category": "高级页面组件",
+    "subcategory": "软件交付",
+    "keywords_zh": [
+      "上线放行决策页",
+      "软件交付"
+    ],
+    "industries": [
+      "软件交付"
+    ],
+    "motif_key": "release-gate",
+    "file_path": "高级页面组件/release-gate.pptx",
+    "editability": "native-shapes-and-text",
+    "powerpoint_app_verification": "未完成 PowerPoint 实测"
+  },
+  {
+    "id": "pptb005-procurement-tradeoff",
+    "name_zh": "采购方案取舍页",
+    "name_en": "procurement tradeoff",
+    "category": "高级页面组件",
+    "subcategory": "采购管理",
+    "keywords_zh": [
+      "采购方案取舍页",
+      "采购管理"
+    ],
+    "industries": [
+      "采购管理"
+    ],
+    "motif_key": "procurement-tradeoff",
+    "file_path": "高级页面组件/procurement-tradeoff.pptx",
+    "editability": "native-shapes-and-text",
+    "powerpoint_app_verification": "未完成 PowerPoint 实测"
+  },
+  {
+    "id": "pptb005-coverage-handoff",
+    "name_zh": "交接闭环卡",
+    "name_en": "coverage handoff",
+    "category": "高级页面组件",
+    "subcategory": "运营管理",
+    "keywords_zh": [
+      "交接闭环卡",
+      "运营管理"
+    ],
+    "industries": [
+      "运营管理"
+    ],
+    "motif_key": "coverage-handoff",
+    "file_path": "高级页面组件/coverage-handoff.pptx",
+    "editability": "native-shapes-and-text",
+    "powerpoint_app_verification": "未完成 PowerPoint 实测"
+  },
+  {
+    "id": "pptb005-experiment-stop-rule",
+    "name_zh": "试验停止规则页",
+    "name_en": "experiment stop rule",
+    "category": "高级页面组件",
+    "subcategory": "产品实验",
+    "keywords_zh": [
+      "试验停止规则页",
+      "产品实验"
+    ],
+    "industries": [
+      "产品实验"
+    ],
+    "motif_key": "experiment-stop-rule",
+    "file_path": "高级页面组件/experiment-stop-rule.pptx",
+    "editability": "native-shapes-and-text",
+    "powerpoint_app_verification": "未完成 PowerPoint 实测"
+  },
+  {
+    "id": "pptb005-policy-exception",
+    "name_zh": "政策例外申请页",
+    "name_en": "policy exception",
+    "category": "高级页面组件",
+    "subcategory": "治理合规",
+    "keywords_zh": [
+      "政策例外申请页",
+      "治理合规"
+    ],
+    "industries": [
+      "治理合规"
+    ],
+    "motif_key": "policy-exception",
+    "file_path": "高级页面组件/policy-exception.pptx",
+    "editability": "native-shapes-and-text",
+    "powerpoint_app_verification": "未完成 PowerPoint 实测"
+  },
+  {
+    "id": "pptb005-learning-misconception",
+    "name_zh": "概念误区讲解页",
+    "name_en": "learning misconception",
+    "category": "高级页面组件",
+    "subcategory": "教育培训",
+    "keywords_zh": [
+      "概念误区讲解页",
+      "教育培训"
+    ],
+    "industries": [
+      "教育培训"
+    ],
+    "motif_key": "learning-misconception",
+    "file_path": "高级页面组件/learning-misconception.pptx",
+    "editability": "native-shapes-and-text",
+    "powerpoint_app_verification": "未完成 PowerPoint 实测"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "batch": "005",
+  "accepted": 6,
+  "by_type": {
+    "高级页面组件": 6
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "pptb005-release-gate",
+    "pptb005-procurement-tradeoff",
+    "pptb005-coverage-handoff",
+    "pptb005-experiment-stop-rule",
+    "pptb005-policy-exception",
+    "pptb005-learning-misconception"
+  ]
+}
