@@ -1,0 +1,452 @@
+[
+  {
+    "id": "pptb002-variance-plan",
+    "name_zh": "计划与实际差额",
+    "name_en": "variance plan",
+    "category": "图表与信息图",
+    "subcategory": "column",
+    "keywords_zh": [
+      "经营管理",
+      "计划与实际差额"
+    ],
+    "industries": [
+      "经营管理"
+    ],
+    "motif_key": "variance-plan",
+    "file_path": "图表与信息图/variance-plan.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-backlog-age",
+    "name_zh": "积压工单账龄",
+    "name_en": "backlog age",
+    "category": "图表与信息图",
+    "subcategory": "bar",
+    "keywords_zh": [
+      "客户服务",
+      "积压工单账龄"
+    ],
+    "industries": [
+      "客户服务"
+    ],
+    "motif_key": "backlog-age",
+    "file_path": "图表与信息图/backlog-age.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-cost-mix",
+    "name_zh": "成本结构占比",
+    "name_en": "cost mix",
+    "category": "图表与信息图",
+    "subcategory": "percent",
+    "keywords_zh": [
+      "经营管理",
+      "成本结构占比"
+    ],
+    "industries": [
+      "经营管理"
+    ],
+    "motif_key": "cost-mix",
+    "file_path": "图表与信息图/cost-mix.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-stock-flow",
+    "name_zh": "安全库存与现货",
+    "name_en": "stock flow",
+    "category": "图表与信息图",
+    "subcategory": "line",
+    "keywords_zh": [
+      "供应链",
+      "安全库存与现货"
+    ],
+    "industries": [
+      "供应链"
+    ],
+    "motif_key": "stock-flow",
+    "file_path": "图表与信息图/stock-flow.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-cash-buffer",
+    "name_zh": "现金缓冲区间",
+    "name_en": "cash buffer",
+    "category": "图表与信息图",
+    "subcategory": "area",
+    "keywords_zh": [
+      "经营管理",
+      "现金缓冲区间"
+    ],
+    "industries": [
+      "经营管理"
+    ],
+    "motif_key": "cash-buffer",
+    "file_path": "图表与信息图/cash-buffer.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-demand-by-channel",
+    "name_zh": "渠道增量拆分",
+    "name_en": "demand by channel",
+    "category": "图表与信息图",
+    "subcategory": "stack",
+    "keywords_zh": [
+      "零售",
+      "渠道增量拆分"
+    ],
+    "industries": [
+      "零售"
+    ],
+    "motif_key": "demand-by-channel",
+    "file_path": "图表与信息图/demand-by-channel.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-channel-single",
+    "name_zh": "单期渠道构成",
+    "name_en": "channel single",
+    "category": "图表与信息图",
+    "subcategory": "doughnut",
+    "keywords_zh": [
+      "市场营销",
+      "单期渠道构成"
+    ],
+    "industries": [
+      "市场营销"
+    ],
+    "motif_key": "channel-single",
+    "file_path": "图表与信息图/channel-single.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-queue-spread",
+    "name_zh": "响应时长分布",
+    "name_en": "queue spread",
+    "category": "图表与信息图",
+    "subcategory": "hist",
+    "keywords_zh": [
+      "客户服务",
+      "响应时长分布"
+    ],
+    "industries": [
+      "客户服务"
+    ],
+    "motif_key": "queue-spread",
+    "file_path": "图表与信息图/queue-spread.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-target-gap",
+    "name_zh": "目标缺口正负分布",
+    "name_en": "target gap",
+    "category": "图表与信息图",
+    "subcategory": "bar",
+    "keywords_zh": [
+      "经营管理",
+      "目标缺口正负分布"
+    ],
+    "industries": [
+      "经营管理"
+    ],
+    "motif_key": "target-gap",
+    "file_path": "图表与信息图/target-gap.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-completion-funnel",
+    "name_zh": "报名到参与转化漏斗",
+    "name_en": "completion funnel",
+    "category": "图表与信息图",
+    "subcategory": "funnel",
+    "keywords_zh": [
+      "教育",
+      "报名到参与转化漏斗"
+    ],
+    "industries": [
+      "教育"
+    ],
+    "motif_key": "completion-funnel",
+    "file_path": "图表与信息图/completion-funnel.pptx",
+    "editability": "native-shapes-and-text",
+    "chart": false
+  },
+  {
+    "id": "pptb002-supply-heatmap",
+    "name_zh": "仓库时段负载热力图",
+    "name_en": "supply heatmap",
+    "category": "图表与信息图",
+    "subcategory": "heat",
+    "keywords_zh": [
+      "供应链",
+      "仓库时段负载热力图"
+    ],
+    "industries": [
+      "供应链"
+    ],
+    "motif_key": "supply-heatmap",
+    "file_path": "图表与信息图/supply-heatmap.pptx",
+    "editability": "native-shapes-and-text",
+    "chart": false
+  },
+  {
+    "id": "pptb002-training-ladder",
+    "name_zh": "岗位培训掌握度阶梯",
+    "name_en": "training ladder",
+    "category": "图表与信息图",
+    "subcategory": "ladder",
+    "keywords_zh": [
+      "教育",
+      "岗位培训掌握度阶梯"
+    ],
+    "industries": [
+      "教育"
+    ],
+    "motif_key": "training-ladder",
+    "file_path": "图表与信息图/training-ladder.pptx",
+    "editability": "native-shapes-and-text",
+    "chart": false
+  },
+  {
+    "id": "pptb002-defect-pareto",
+    "name_zh": "质量缺陷帕累托拆解",
+    "name_en": "defect pareto",
+    "category": "图表与信息图",
+    "subcategory": "pareto",
+    "keywords_zh": [
+      "制造",
+      "质量缺陷帕累托拆解"
+    ],
+    "industries": [
+      "制造"
+    ],
+    "motif_key": "defect-pareto",
+    "file_path": "图表与信息图/defect-pareto.pptx",
+    "editability": "native-shapes-and-text",
+    "chart": false
+  },
+  {
+    "id": "pptb002-incident-timeline",
+    "name_zh": "故障响应事件轴",
+    "name_en": "incident timeline",
+    "category": "图表与信息图",
+    "subcategory": "timeline",
+    "keywords_zh": [
+      "技术",
+      "故障响应事件轴"
+    ],
+    "industries": [
+      "技术"
+    ],
+    "motif_key": "incident-timeline",
+    "file_path": "图表与信息图/incident-timeline.pptx",
+    "editability": "native-shapes-and-text",
+    "chart": false
+  },
+  {
+    "id": "pptb002-confidence-interval",
+    "name_zh": "采样误差区间图",
+    "name_en": "confidence interval",
+    "category": "图表与信息图",
+    "subcategory": "range",
+    "keywords_zh": [
+      "用户研究",
+      "采样误差区间图"
+    ],
+    "industries": [
+      "用户研究"
+    ],
+    "motif_key": "confidence-interval",
+    "file_path": "图表与信息图/confidence-interval.pptx",
+    "editability": "native-shapes-and-text",
+    "chart": false
+  },
+  {
+    "id": "pptb002-base-bridge",
+    "name_zh": "利润变动桥接图",
+    "name_en": "base bridge",
+    "category": "图表与信息图",
+    "subcategory": "bridge",
+    "keywords_zh": [
+      "财务",
+      "利润变动桥接图"
+    ],
+    "industries": [
+      "财务"
+    ],
+    "motif_key": "base-bridge",
+    "file_path": "图表与信息图/base-bridge.pptx",
+    "editability": "native-shapes-and-text",
+    "chart": false
+  },
+  {
+    "id": "pptb002-priority-grid",
+    "name_zh": "影响与投入优先级",
+    "name_en": "priority grid",
+    "category": "图表与信息图",
+    "subcategory": "quadrant",
+    "keywords_zh": [
+      "产品设计",
+      "影响与投入优先级"
+    ],
+    "industries": [
+      "产品设计"
+    ],
+    "motif_key": "priority-grid",
+    "file_path": "图表与信息图/priority-grid.pptx",
+    "editability": "native-shapes-and-text",
+    "chart": false
+  },
+  {
+    "id": "pptb002-risk-map",
+    "name_zh": "风险概率与影响矩阵",
+    "name_en": "risk map",
+    "category": "图表与信息图",
+    "subcategory": "quadrant",
+    "keywords_zh": [
+      "风险管理",
+      "风险概率与影响矩阵"
+    ],
+    "industries": [
+      "风险管理"
+    ],
+    "motif_key": "risk-map",
+    "file_path": "图表与信息图/risk-map.pptx",
+    "editability": "native-shapes-and-text",
+    "chart": false
+  },
+  {
+    "id": "pptb002-water-balance",
+    "name_zh": "供水量与损耗核对",
+    "name_en": "water balance",
+    "category": "图表与信息图",
+    "subcategory": "stack",
+    "keywords_zh": [
+      "公共服务",
+      "供水量与损耗核对"
+    ],
+    "industries": [
+      "公共服务"
+    ],
+    "motif_key": "water-balance",
+    "file_path": "图表与信息图/water-balance.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-seasonal-profile",
+    "name_zh": "环比与去年同期走势",
+    "name_en": "seasonal profile",
+    "category": "图表与信息图",
+    "subcategory": "line",
+    "keywords_zh": [
+      "零售",
+      "环比与去年同期走势"
+    ],
+    "industries": [
+      "零售"
+    ],
+    "motif_key": "seasonal-profile",
+    "file_path": "图表与信息图/seasonal-profile.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-utilization-bullet",
+    "name_zh": "产能利用率目标带",
+    "name_en": "utilization bullet",
+    "category": "图表与信息图",
+    "subcategory": "bullet",
+    "keywords_zh": [
+      "制造",
+      "产能利用率目标带"
+    ],
+    "industries": [
+      "制造"
+    ],
+    "motif_key": "utilization-bullet",
+    "file_path": "图表与信息图/utilization-bullet.pptx",
+    "editability": "native-shapes-and-text",
+    "chart": false
+  },
+  {
+    "id": "pptb002-reliability-radar",
+    "name_zh": "系统可靠性维度雷达",
+    "name_en": "reliability radar",
+    "category": "图表与信息图",
+    "subcategory": "radar",
+    "keywords_zh": [
+      "技术",
+      "系统可靠性维度雷达"
+    ],
+    "industries": [
+      "技术"
+    ],
+    "motif_key": "reliability-radar",
+    "file_path": "图表与信息图/reliability-radar.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-product-score",
+    "name_zh": "产品试用评价分布",
+    "name_en": "product score",
+    "category": "图表与信息图",
+    "subcategory": "percent",
+    "keywords_zh": [
+      "用户研究",
+      "产品试用评价分布"
+    ],
+    "industries": [
+      "用户研究"
+    ],
+    "motif_key": "product-score",
+    "file_path": "图表与信息图/product-score.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  },
+  {
+    "id": "pptb002-inventory-treemap",
+    "name_zh": "库存占用面积图",
+    "name_en": "inventory treemap",
+    "category": "图表与信息图",
+    "subcategory": "treemap",
+    "keywords_zh": [
+      "供应链",
+      "库存占用面积图"
+    ],
+    "industries": [
+      "供应链"
+    ],
+    "motif_key": "inventory-treemap",
+    "file_path": "图表与信息图/inventory-treemap.pptx",
+    "editability": "native-shapes-and-text",
+    "chart": false
+  },
+  {
+    "id": "pptb002-cycle-lanes",
+    "name_zh": "交付周期分段条",
+    "name_en": "cycle lanes",
+    "category": "图表与信息图",
+    "subcategory": "stack",
+    "keywords_zh": [
+      "项目管理",
+      "交付周期分段条"
+    ],
+    "industries": [
+      "项目管理"
+    ],
+    "motif_key": "cycle-lanes",
+    "file_path": "图表与信息图/cycle-lanes.pptx",
+    "editability": "native-chart-with-workbook",
+    "chart": true
+  }
+]

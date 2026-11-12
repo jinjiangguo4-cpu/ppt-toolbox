@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "batch": "002",
+  "accepted": 25,
+  "by_type": {
+    "图表与信息图": 25
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "pptb002-variance-plan",
+    "pptb002-backlog-age",
+    "pptb002-cost-mix",
+    "pptb002-stock-flow",
+    "pptb002-cash-buffer",
+    "pptb002-demand-by-channel",
+    "pptb002-channel-single",
+    "pptb002-queue-spread",
+    "pptb002-target-gap",
+    "pptb002-completion-funnel",
+    "pptb002-supply-heatmap",
+    "pptb002-training-ladder",
+    "pptb002-defect-pareto",
+    "pptb002-incident-timeline",
+    "pptb002-confidence-interval",
+    "pptb002-base-bridge",
+    "pptb002-priority-grid",
+    "pptb002-risk-map",
+    "pptb002-water-balance",
+    "pptb002-seasonal-profile",
+    "pptb002-utilization-bullet",
+    "pptb002-reliability-radar",
+    "pptb002-product-score",
+    "pptb002-inventory-treemap",
+    "pptb002-cycle-lanes"
+  ]
+}
