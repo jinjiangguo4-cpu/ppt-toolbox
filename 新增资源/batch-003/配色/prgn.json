@@ -1,0 +1,16 @@
+{
+  "name": "PRGn",
+  "kind": "diverging",
+  "colors": [
+    "#762A83",
+    "#AF8DC3",
+    "#E7D4E8",
+    "#F7F7F7",
+    "#D9F0D3",
+    "#7FBF7B",
+    "#1B7837"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "PRGn",
+  "license": "Apache-2.0"
+}

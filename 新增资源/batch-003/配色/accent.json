@@ -1,0 +1,15 @@
+{
+  "name": "Accent",
+  "kind": "qualitative",
+  "colors": [
+    "#7FC97F",
+    "#BEAED4",
+    "#FDC086",
+    "#FFFF99",
+    "#386CB0",
+    "#F0027F"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "Accent",
+  "license": "Apache-2.0"
+}

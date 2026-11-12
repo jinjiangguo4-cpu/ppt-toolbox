@@ -1,0 +1,15 @@
+{
+  "name": "Oranges",
+  "kind": "sequential",
+  "colors": [
+    "#FEEDDE",
+    "#FDD0A2",
+    "#FDAE6B",
+    "#FD8D3C",
+    "#E6550D",
+    "#A63603"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "Oranges",
+  "license": "Apache-2.0"
+}

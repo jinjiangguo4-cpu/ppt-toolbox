@@ -1,0 +1,15 @@
+{
+  "name": "Set1",
+  "kind": "qualitative",
+  "colors": [
+    "#E41A1C",
+    "#377EB8",
+    "#4DAF4A",
+    "#984EA3",
+    "#FF7F00",
+    "#FFFF33"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "Set1",
+  "license": "Apache-2.0"
+}

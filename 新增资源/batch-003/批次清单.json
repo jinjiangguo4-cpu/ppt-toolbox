@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "batch": "003",
+  "accepted": 25,
+  "by_type": {
+    "配色": 25
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "pptb003-brewer-rdbu",
+    "pptb003-brewer-rdylgn",
+    "pptb003-brewer-piyg",
+    "pptb003-brewer-prgn",
+    "pptb003-brewer-rdylbu",
+    "pptb003-brewer-brbg",
+    "pptb003-brewer-rdgy",
+    "pptb003-brewer-puor",
+    "pptb003-brewer-spectral",
+    "pptb003-brewer-accent",
+    "pptb003-brewer-dark2",
+    "pptb003-brewer-paired",
+    "pptb003-brewer-pastel1",
+    "pptb003-brewer-pastel2",
+    "pptb003-brewer-set1",
+    "pptb003-brewer-set2",
+    "pptb003-brewer-set3",
+    "pptb003-brewer-blues",
+    "pptb003-brewer-greens",
+    "pptb003-brewer-greys",
+    "pptb003-brewer-oranges",
+    "pptb003-brewer-purples",
+    "pptb003-brewer-reds",
+    "pptb003-brewer-ylgnbu",
+    "pptb003-brewer-pubugn"
+  ]
+}

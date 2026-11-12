@@ -1,0 +1,15 @@
+{
+  "name": "Reds",
+  "kind": "sequential",
+  "colors": [
+    "#FEE5D9",
+    "#FCBBA1",
+    "#FC9272",
+    "#FB6A4A",
+    "#DE2D26",
+    "#A50F15"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "Reds",
+  "license": "Apache-2.0"
+}

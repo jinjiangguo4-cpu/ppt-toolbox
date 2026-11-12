@@ -1,0 +1,16 @@
+{
+  "name": "PiYG",
+  "kind": "diverging",
+  "colors": [
+    "#C51B7D",
+    "#E9A3C9",
+    "#FDE0EF",
+    "#F7F7F7",
+    "#E6F5D0",
+    "#A1D76A",
+    "#4D9221"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "PiYG",
+  "license": "Apache-2.0"
+}

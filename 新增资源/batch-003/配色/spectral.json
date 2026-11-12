@@ -1,0 +1,16 @@
+{
+  "name": "Spectral",
+  "kind": "diverging",
+  "colors": [
+    "#D53E4F",
+    "#FC8D59",
+    "#FEE08B",
+    "#FFFFBF",
+    "#E6F598",
+    "#99D594",
+    "#3288BD"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "Spectral",
+  "license": "Apache-2.0"
+}

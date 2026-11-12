@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img"><title>PuOr palette</title>
+<rect width="1000" height="320" fill="#fff"/>
+<g font-family="Arial,sans-serif"><text x="36" y="53" font-size="33" font-weight="700" fill="#172b42">PuOr · Diverging</text>
+<text x="36" y="85" font-size="17" fill="#455b70">Use for departures from a meaningful midpoint.</text>
+<rect x="36.00" y="118" width="128.57" height="117" rx="6" fill="#B35806"/>
+<text x="102.29" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">#B35806</text>
+<rect x="168.57" y="118" width="128.57" height="117" rx="6" fill="#F1A340"/>
+<text x="234.86" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">#F1A340</text>
+<rect x="301.14" y="118" width="128.57" height="117" rx="6" fill="#FEE0B6"/>
+<text x="367.43" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">#FEE0B6</text>
+<rect x="433.71" y="118" width="128.57" height="117" rx="6" fill="#F7F7F7"/>
+<text x="500.00" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">#F7F7F7</text>
+<rect x="566.29" y="118" width="128.57" height="117" rx="6" fill="#D8DAEB"/>
+<text x="632.57" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">#D8DAEB</text>
+<rect x="698.86" y="118" width="128.57" height="117" rx="6" fill="#998EC3"/>
+<text x="765.14" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">#998EC3</text>
+<rect x="831.43" y="118" width="128.57" height="117" rx="6" fill="#542788"/>
+<text x="897.71" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">#542788</text>
+<text x="36" y="278" font-size="13" fill="#455b70">Color specifications developed by Cynthia Brewer · colorbrewer.org</text></g></svg>

@@ -1,0 +1,16 @@
+{
+  "name": "BrBG",
+  "kind": "diverging",
+  "colors": [
+    "#8C510A",
+    "#D8B365",
+    "#F6E8C3",
+    "#F5F5F5",
+    "#C7EAE5",
+    "#5AB4AC",
+    "#01665E"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "BrBG",
+  "license": "Apache-2.0"
+}

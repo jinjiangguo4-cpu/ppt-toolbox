@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img"><title>Pastel1 palette</title>
+<rect width="1000" height="320" fill="#fff"/>
+<g font-family="Arial,sans-serif"><text x="36" y="53" font-size="33" font-weight="700" fill="#172b42">Pastel1 · Qualitative</text>
+<text x="36" y="85" font-size="17" fill="#455b70">Assign one swatch per category and keep the mapping consistent.</text>
+<rect x="36.00" y="118" width="150.67" height="117" rx="6" fill="#FBB4AE"/>
+<text x="113.33" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">#FBB4AE</text>
+<rect x="190.67" y="118" width="150.67" height="117" rx="6" fill="#B3CDE3"/>
+<text x="268.00" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">#B3CDE3</text>
+<rect x="345.33" y="118" width="150.67" height="117" rx="6" fill="#CCEBC5"/>
+<text x="422.67" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">#CCEBC5</text>
+<rect x="500.00" y="118" width="150.67" height="117" rx="6" fill="#DECBE4"/>
+<text x="577.33" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">#DECBE4</text>
+<rect x="654.67" y="118" width="150.67" height="117" rx="6" fill="#FED9A6"/>
+<text x="732.00" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">#FED9A6</text>
+<rect x="809.33" y="118" width="150.67" height="117" rx="6" fill="#FFFFCC"/>
+<text x="886.67" y="184" text-anchor="middle" font-size="18" font-weight="700" fill="#000000">#FFFFCC</text>
+<text x="36" y="278" font-size="13" fill="#455b70">Color specifications developed by Cynthia Brewer · colorbrewer.org</text></g></svg>

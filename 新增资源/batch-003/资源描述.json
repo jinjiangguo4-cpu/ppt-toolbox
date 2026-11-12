@@ -1,0 +1,727 @@
+[
+  {
+    "id": "pptb003-brewer-rdbu",
+    "name_zh": "RdBu 发散色板",
+    "name_en": "RdBu Diverging palette",
+    "category": "配色",
+    "subcategory": "发散",
+    "keywords_zh": [
+      "发散",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-rdbu",
+    "file_path": "配色/rdbu.svg",
+    "extra_paths": [
+      "配色/rdbu.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "RdBu",
+    "original_resource_id": "RdBu",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-rdylgn",
+    "name_zh": "RdYlGn 发散色板",
+    "name_en": "RdYlGn Diverging palette",
+    "category": "配色",
+    "subcategory": "发散",
+    "keywords_zh": [
+      "发散",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-rdylgn",
+    "file_path": "配色/rdylgn.svg",
+    "extra_paths": [
+      "配色/rdylgn.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "RdYlGn",
+    "original_resource_id": "RdYlGn",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-piyg",
+    "name_zh": "PiYG 发散色板",
+    "name_en": "PiYG Diverging palette",
+    "category": "配色",
+    "subcategory": "发散",
+    "keywords_zh": [
+      "发散",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-piyg",
+    "file_path": "配色/piyg.svg",
+    "extra_paths": [
+      "配色/piyg.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "PiYG",
+    "original_resource_id": "PiYG",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-prgn",
+    "name_zh": "PRGn 发散色板",
+    "name_en": "PRGn Diverging palette",
+    "category": "配色",
+    "subcategory": "发散",
+    "keywords_zh": [
+      "发散",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-prgn",
+    "file_path": "配色/prgn.svg",
+    "extra_paths": [
+      "配色/prgn.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "PRGn",
+    "original_resource_id": "PRGn",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-rdylbu",
+    "name_zh": "RdYlBu 发散色板",
+    "name_en": "RdYlBu Diverging palette",
+    "category": "配色",
+    "subcategory": "发散",
+    "keywords_zh": [
+      "发散",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-rdylbu",
+    "file_path": "配色/rdylbu.svg",
+    "extra_paths": [
+      "配色/rdylbu.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "RdYlBu",
+    "original_resource_id": "RdYlBu",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-brbg",
+    "name_zh": "BrBG 发散色板",
+    "name_en": "BrBG Diverging palette",
+    "category": "配色",
+    "subcategory": "发散",
+    "keywords_zh": [
+      "发散",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-brbg",
+    "file_path": "配色/brbg.svg",
+    "extra_paths": [
+      "配色/brbg.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "BrBG",
+    "original_resource_id": "BrBG",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-rdgy",
+    "name_zh": "RdGy 发散色板",
+    "name_en": "RdGy Diverging palette",
+    "category": "配色",
+    "subcategory": "发散",
+    "keywords_zh": [
+      "发散",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-rdgy",
+    "file_path": "配色/rdgy.svg",
+    "extra_paths": [
+      "配色/rdgy.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "RdGy",
+    "original_resource_id": "RdGy",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-puor",
+    "name_zh": "PuOr 发散色板",
+    "name_en": "PuOr Diverging palette",
+    "category": "配色",
+    "subcategory": "发散",
+    "keywords_zh": [
+      "发散",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-puor",
+    "file_path": "配色/puor.svg",
+    "extra_paths": [
+      "配色/puor.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "PuOr",
+    "original_resource_id": "PuOr",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-spectral",
+    "name_zh": "Spectral 发散色板",
+    "name_en": "Spectral Diverging palette",
+    "category": "配色",
+    "subcategory": "发散",
+    "keywords_zh": [
+      "发散",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-spectral",
+    "file_path": "配色/spectral.svg",
+    "extra_paths": [
+      "配色/spectral.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Spectral",
+    "original_resource_id": "Spectral",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-accent",
+    "name_zh": "Accent 定性色板",
+    "name_en": "Accent Qualitative palette",
+    "category": "配色",
+    "subcategory": "定性",
+    "keywords_zh": [
+      "定性",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-accent",
+    "file_path": "配色/accent.svg",
+    "extra_paths": [
+      "配色/accent.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Accent",
+    "original_resource_id": "Accent",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-dark2",
+    "name_zh": "Dark2 定性色板",
+    "name_en": "Dark2 Qualitative palette",
+    "category": "配色",
+    "subcategory": "定性",
+    "keywords_zh": [
+      "定性",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-dark2",
+    "file_path": "配色/dark2.svg",
+    "extra_paths": [
+      "配色/dark2.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Dark2",
+    "original_resource_id": "Dark2",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-paired",
+    "name_zh": "Paired 定性色板",
+    "name_en": "Paired Qualitative palette",
+    "category": "配色",
+    "subcategory": "定性",
+    "keywords_zh": [
+      "定性",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-paired",
+    "file_path": "配色/paired.svg",
+    "extra_paths": [
+      "配色/paired.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Paired",
+    "original_resource_id": "Paired",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-pastel1",
+    "name_zh": "Pastel1 定性色板",
+    "name_en": "Pastel1 Qualitative palette",
+    "category": "配色",
+    "subcategory": "定性",
+    "keywords_zh": [
+      "定性",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-pastel1",
+    "file_path": "配色/pastel1.svg",
+    "extra_paths": [
+      "配色/pastel1.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Pastel1",
+    "original_resource_id": "Pastel1",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-pastel2",
+    "name_zh": "Pastel2 定性色板",
+    "name_en": "Pastel2 Qualitative palette",
+    "category": "配色",
+    "subcategory": "定性",
+    "keywords_zh": [
+      "定性",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-pastel2",
+    "file_path": "配色/pastel2.svg",
+    "extra_paths": [
+      "配色/pastel2.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Pastel2",
+    "original_resource_id": "Pastel2",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-set1",
+    "name_zh": "Set1 定性色板",
+    "name_en": "Set1 Qualitative palette",
+    "category": "配色",
+    "subcategory": "定性",
+    "keywords_zh": [
+      "定性",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-set1",
+    "file_path": "配色/set1.svg",
+    "extra_paths": [
+      "配色/set1.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Set1",
+    "original_resource_id": "Set1",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-set2",
+    "name_zh": "Set2 定性色板",
+    "name_en": "Set2 Qualitative palette",
+    "category": "配色",
+    "subcategory": "定性",
+    "keywords_zh": [
+      "定性",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-set2",
+    "file_path": "配色/set2.svg",
+    "extra_paths": [
+      "配色/set2.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Set2",
+    "original_resource_id": "Set2",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-set3",
+    "name_zh": "Set3 定性色板",
+    "name_en": "Set3 Qualitative palette",
+    "category": "配色",
+    "subcategory": "定性",
+    "keywords_zh": [
+      "定性",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-set3",
+    "file_path": "配色/set3.svg",
+    "extra_paths": [
+      "配色/set3.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Set3",
+    "original_resource_id": "Set3",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-blues",
+    "name_zh": "Blues 顺序色板",
+    "name_en": "Blues Sequential palette",
+    "category": "配色",
+    "subcategory": "顺序",
+    "keywords_zh": [
+      "顺序",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-blues",
+    "file_path": "配色/blues.svg",
+    "extra_paths": [
+      "配色/blues.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Blues",
+    "original_resource_id": "Blues",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-greens",
+    "name_zh": "Greens 顺序色板",
+    "name_en": "Greens Sequential palette",
+    "category": "配色",
+    "subcategory": "顺序",
+    "keywords_zh": [
+      "顺序",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-greens",
+    "file_path": "配色/greens.svg",
+    "extra_paths": [
+      "配色/greens.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Greens",
+    "original_resource_id": "Greens",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-greys",
+    "name_zh": "Greys 顺序色板",
+    "name_en": "Greys Sequential palette",
+    "category": "配色",
+    "subcategory": "顺序",
+    "keywords_zh": [
+      "顺序",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-greys",
+    "file_path": "配色/greys.svg",
+    "extra_paths": [
+      "配色/greys.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Greys",
+    "original_resource_id": "Greys",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-oranges",
+    "name_zh": "Oranges 顺序色板",
+    "name_en": "Oranges Sequential palette",
+    "category": "配色",
+    "subcategory": "顺序",
+    "keywords_zh": [
+      "顺序",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-oranges",
+    "file_path": "配色/oranges.svg",
+    "extra_paths": [
+      "配色/oranges.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Oranges",
+    "original_resource_id": "Oranges",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-purples",
+    "name_zh": "Purples 顺序色板",
+    "name_en": "Purples Sequential palette",
+    "category": "配色",
+    "subcategory": "顺序",
+    "keywords_zh": [
+      "顺序",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-purples",
+    "file_path": "配色/purples.svg",
+    "extra_paths": [
+      "配色/purples.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Purples",
+    "original_resource_id": "Purples",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-reds",
+    "name_zh": "Reds 顺序色板",
+    "name_en": "Reds Sequential palette",
+    "category": "配色",
+    "subcategory": "顺序",
+    "keywords_zh": [
+      "顺序",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-reds",
+    "file_path": "配色/reds.svg",
+    "extra_paths": [
+      "配色/reds.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "Reds",
+    "original_resource_id": "Reds",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-ylgnbu",
+    "name_zh": "YlGnBu 顺序色板",
+    "name_en": "YlGnBu Sequential palette",
+    "category": "配色",
+    "subcategory": "顺序",
+    "keywords_zh": [
+      "顺序",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-ylgnbu",
+    "file_path": "配色/ylgnbu.svg",
+    "extra_paths": [
+      "配色/ylgnbu.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "YlGnBu",
+    "original_resource_id": "YlGnBu",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  },
+  {
+    "id": "pptb003-brewer-pubugn",
+    "name_zh": "PuBuGn 顺序色板",
+    "name_en": "PuBuGn Sequential palette",
+    "category": "配色",
+    "subcategory": "顺序",
+    "keywords_zh": [
+      "顺序",
+      "色板",
+      "数据可视化"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "brewer-pubugn",
+    "file_path": "配色/pubugn.svg",
+    "extra_paths": [
+      "配色/pubugn.json"
+    ],
+    "editability": "SVG-path-editable",
+    "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+    "source_page": "PuBuGn",
+    "original_resource_id": "PuBuGn",
+    "source_project": "ColorBrewer",
+    "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+    "attribution_required": true
+  }
+]

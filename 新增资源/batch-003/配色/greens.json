@@ -1,0 +1,15 @@
+{
+  "name": "Greens",
+  "kind": "sequential",
+  "colors": [
+    "#EDF8E9",
+    "#C7E9C0",
+    "#A1D99B",
+    "#74C476",
+    "#31A354",
+    "#006D2C"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "Greens",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "YlGnBu",
+  "kind": "sequential",
+  "colors": [
+    "#FFFFCC",
+    "#C7E9B4",
+    "#7FCDBB",
+    "#41B6C4",
+    "#2C7FB8",
+    "#253494"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "YlGnBu",
+  "license": "Apache-2.0"
+}

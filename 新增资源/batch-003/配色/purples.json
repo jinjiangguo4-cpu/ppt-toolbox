@@ -1,0 +1,15 @@
+{
+  "name": "Purples",
+  "kind": "sequential",
+  "colors": [
+    "#F2F0F7",
+    "#DADAEB",
+    "#BCBDDC",
+    "#9E9AC8",
+    "#756BB1",
+    "#54278F"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "Purples",
+  "license": "Apache-2.0"
+}
