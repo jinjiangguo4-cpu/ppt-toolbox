@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "batch": "004",
+  "accepted": 25,
+  "by_type": {
+    "材质背景": 12,
+    "特殊装饰": 13
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "pptb004-survey-contour-rim",
+    "pptb004-technical-coordinate-field",
+    "pptb004-linen-fibers",
+    "pptb004-glass-prism-edge",
+    "pptb004-brushed-alloy",
+    "pptb004-ink-grain-paper",
+    "pptb004-riverbank-flow",
+    "pptb004-soft-horizon",
+    "pptb004-ceramic-tile-corner",
+    "pptb004-wave-interference",
+    "pptb004-book-margin",
+    "pptb004-layered-bedrock",
+    "pptb004-instrument-ruler-edge",
+    "pptb004-focus-brackets",
+    "pptb004-section-break-bars",
+    "pptb004-annotation-elbow-dot",
+    "pptb004-woven-knot-mark",
+    "pptb004-dotted-travel-arc",
+    "pptb004-stacked-isometric-layers",
+    "pptb004-editorial-fold-tab",
+    "pptb004-cluster-orbit-mark",
+    "pptb004-split-proportion-brace",
+    "pptb004-data-node-fork",
+    "pptb004-scale-chevron-chain",
+    "pptb004-six-cell-molecule"
+  ]
+}
