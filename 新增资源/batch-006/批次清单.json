@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "batch": "006",
+  "accepted": 6,
+  "by_type": {
+    "图表与信息图": 6
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "pptb006-revenue-reconciliation",
+    "pptb006-recovery-objective",
+    "pptb006-cohort-learning-decay",
+    "pptb006-scope-growth",
+    "pptb006-service-level-severity",
+    "pptb006-warehouse-error-hist"
+  ]
+}

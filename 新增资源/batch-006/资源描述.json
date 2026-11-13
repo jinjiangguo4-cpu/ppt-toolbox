@@ -1,0 +1,116 @@
+[
+  {
+    "id": "pptb006-revenue-reconciliation",
+    "name_zh": "收入与回款月度勾稽",
+    "name_en": "revenue reconciliation",
+    "category": "图表与信息图",
+    "subcategory": "column",
+    "keywords_zh": [
+      "财务",
+      "收入与回款月度勾稽"
+    ],
+    "industries": [
+      "财务"
+    ],
+    "motif_key": "revenue-reconciliation",
+    "file_path": "图表与信息图/revenue-reconciliation.pptx",
+    "editability": "native-chart-with-workbook",
+    "powerpoint_app_verification": "未完成 PowerPoint 实测",
+    "chart": true
+  },
+  {
+    "id": "pptb006-recovery-objective",
+    "name_zh": "故障恢复时间与目标",
+    "name_en": "recovery objective",
+    "category": "图表与信息图",
+    "subcategory": "bar",
+    "keywords_zh": [
+      "技术运维",
+      "故障恢复时间与目标"
+    ],
+    "industries": [
+      "技术运维"
+    ],
+    "motif_key": "recovery-objective",
+    "file_path": "图表与信息图/recovery-objective.pptx",
+    "editability": "native-chart-with-workbook",
+    "powerpoint_app_verification": "未完成 PowerPoint 实测",
+    "chart": true
+  },
+  {
+    "id": "pptb006-cohort-learning-decay",
+    "name_zh": "培训后知识保持曲线",
+    "name_en": "cohort learning decay",
+    "category": "图表与信息图",
+    "subcategory": "line",
+    "keywords_zh": [
+      "教育培训",
+      "培训后知识保持曲线"
+    ],
+    "industries": [
+      "教育培训"
+    ],
+    "motif_key": "cohort-learning-decay",
+    "file_path": "图表与信息图/cohort-learning-decay.pptx",
+    "editability": "native-chart-with-workbook",
+    "powerpoint_app_verification": "未完成 PowerPoint 实测",
+    "chart": true
+  },
+  {
+    "id": "pptb006-scope-growth",
+    "name_zh": "已交付与未交付需求演变",
+    "name_en": "scope growth",
+    "category": "图表与信息图",
+    "subcategory": "area",
+    "keywords_zh": [
+      "项目管理",
+      "已交付与未交付需求演变"
+    ],
+    "industries": [
+      "项目管理"
+    ],
+    "motif_key": "scope-growth",
+    "file_path": "图表与信息图/scope-growth.pptx",
+    "editability": "native-chart-with-workbook",
+    "powerpoint_app_verification": "未完成 PowerPoint 实测",
+    "chart": true
+  },
+  {
+    "id": "pptb006-service-level-severity",
+    "name_zh": "按事件等级比较服务达标率",
+    "name_en": "service level severity",
+    "category": "图表与信息图",
+    "subcategory": "percent",
+    "keywords_zh": [
+      "服务运营",
+      "按事件等级比较服务达标率"
+    ],
+    "industries": [
+      "服务运营"
+    ],
+    "motif_key": "service-level-severity",
+    "file_path": "图表与信息图/service-level-severity.pptx",
+    "editability": "native-chart-with-workbook",
+    "powerpoint_app_verification": "未完成 PowerPoint 实测",
+    "chart": true
+  },
+  {
+    "id": "pptb006-warehouse-error-hist",
+    "name_zh": "拣货误差频数分布",
+    "name_en": "warehouse error hist",
+    "category": "图表与信息图",
+    "subcategory": "hist",
+    "keywords_zh": [
+      "仓储质检",
+      "拣货误差频数分布"
+    ],
+    "industries": [
+      "仓储质检"
+    ],
+    "motif_key": "warehouse-error-hist",
+    "file_path": "图表与信息图/warehouse-error-hist.pptx",
+    "editability": "native-chart-with-workbook",
+    "powerpoint_app_verification": "未完成 PowerPoint 实测",
+    "chart": true
+  }
+]
