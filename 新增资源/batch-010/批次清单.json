@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "batch": "010",
+  "accepted": 28,
+  "by_type": {
+    "特殊装饰": 28
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "tabler-outline-bandage",
+    "tabler-outline-brain",
+    "tabler-outline-crutches",
+    "tabler-outline-dental",
+    "tabler-outline-dna",
+    "tabler-outline-ear",
+    "tabler-outline-emergency-bed",
+    "tabler-outline-eye-table",
+    "tabler-outline-first-aid-kit",
+    "tabler-outline-lungs",
+    "tabler-outline-pill",
+    "tabler-outline-stethoscope",
+    "tabler-outline-thermometer",
+    "tabler-outline-vaccine",
+    "tabler-outline-building-airport",
+    "tabler-outline-building-bank",
+    "tabler-outline-building-bridge",
+    "tabler-outline-building-broadcast-tower",
+    "tabler-outline-building-factory",
+    "tabler-outline-building-lighthouse",
+    "tabler-outline-building-stadium",
+    "tabler-outline-building-wind-turbine",
+    "tabler-outline-archive",
+    "tabler-outline-certificate",
+    "tabler-outline-chalkboard",
+    "tabler-outline-contract",
+    "tabler-outline-file-barcode",
+    "tabler-outline-file-shredder"
+  ]
+}
