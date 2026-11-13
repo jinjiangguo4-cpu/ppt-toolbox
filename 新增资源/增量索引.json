@@ -5228,6 +5228,306 @@
       "local_storage_allowed": true,
       "customer_ppt_allowed": true,
       "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-bg-frosted-panel",
+      "name_zh": "磨砂夹层背景",
+      "name_en": "frosted panel",
+      "category": "材质背景",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "磨砂夹层背景",
+        "消费电子规格页，右侧冷色夹层，左侧放正文"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "frosted-panel",
+      "file_path": "batch-011/item-001/材质背景/frosted-panel.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "51ba24715e30c5aa5fc0057898c395f8fe974822f693de7ad254c653c534f1bb",
+      "quality_status": "passed_svg_structure",
+      "library": "background",
+      "batch": "011",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-bg-marbling-basin",
+      "name_zh": "大理石墨脉边区",
+      "name_en": "marbling basin",
+      "category": "材质背景",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "大理石墨脉边区",
+        "艺术展览图文页，深色纹理收束在底部"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "marbling-basin",
+      "file_path": "batch-011/item-002/材质背景/marbling-basin.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "32746e6c479b8d57b53ae91721010f5c78c12708225d1c03e4b179a909a39246",
+      "quality_status": "passed_svg_structure",
+      "library": "background",
+      "batch": "011",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-bg-concrete-form-seams",
+      "name_zh": "清水混凝土模板缝",
+      "name_en": "concrete form seams",
+      "category": "材质背景",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "清水混凝土模板缝",
+        "建筑施工复盘，留出右半区展示节点"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "concrete-form-seams",
+      "file_path": "batch-011/item-003/材质背景/concrete-form-seams.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "023559f33e6a790e0b542ec8a143996c1d3affc6788f0af97356aaa705232257",
+      "quality_status": "passed_svg_structure",
+      "library": "background",
+      "batch": "011",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-bg-cork-grain-strip",
+      "name_zh": "软木颗粒边带",
+      "name_en": "cork grain strip",
+      "category": "材质背景",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "软木颗粒边带",
+        "办公材料与环保产品页，左侧只作质感提示"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "cork-grain-strip",
+      "file_path": "batch-011/item-004/材质背景/cork-grain-strip.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "1b43537398e35d428fa77d39400298c6add34dc8466b00546b18017b597b04b5",
+      "quality_status": "passed_svg_structure",
+      "library": "background",
+      "batch": "011",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-bg-double-exposure-negative",
+      "name_zh": "胶片遮幅背景",
+      "name_en": "double exposure negative",
+      "category": "材质背景",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "胶片遮幅背景",
+        "摄影项目复盘，画面或引语置于中间"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "double-exposure-negative",
+      "file_path": "batch-011/item-005/材质背景/double-exposure-negative.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "049466e2552f528a2b25accfffeb0cd1746ca609cd490fff97b0d1be97220c3b",
+      "quality_status": "passed_svg_structure",
+      "library": "background",
+      "batch": "011",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-bg-louver-section",
+      "name_zh": "百叶剖面右栏",
+      "name_en": "louver section",
+      "category": "材质背景",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "百叶剖面右栏",
+        "建筑节能原理页，左侧正文与右侧通风示意分区"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "louver-section",
+      "file_path": "batch-011/item-006/材质背景/louver-section.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "81fcc4e9d7ba3f1e12de7272dbe5ee4186c352675450d29a25344916dcf48fd3",
+      "quality_status": "passed_svg_structure",
+      "library": "background",
+      "batch": "011",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-bg-varnish-spot",
+      "name_zh": "局部清漆圆印",
+      "name_en": "varnish spot",
+      "category": "材质背景",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "局部清漆圆印",
+        "包装与印后工艺，标题可沿左侧中线安排"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "varnish-spot",
+      "file_path": "batch-011/item-007/材质背景/varnish-spot.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "ffeb4840ce3290f4a8ecc2b0a8439047ff7521d8c624051189c2aa5925a57760",
+      "quality_status": "passed_svg_structure",
+      "library": "background",
+      "batch": "011",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-bg-pressed-leaf-veins",
+      "name_zh": "压叶叶脉底角",
+      "name_en": "pressed leaf veins",
+      "category": "材质背景",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "压叶叶脉底角",
+        "植物标本或生态专题，图案集中右下区域"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "pressed-leaf-veins",
+      "file_path": "batch-011/item-008/材质背景/pressed-leaf-veins.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "0ac6e2ae3e1da4538427b4a382a863b9856e4bfc65336928b578d444a8cb905d",
+      "quality_status": "passed_svg_structure",
+      "library": "background",
+      "batch": "011",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-bg-woven-wire-boundary",
+      "name_zh": "编织钢网角幅",
+      "name_en": "woven wire boundary",
+      "category": "材质背景",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "编织钢网角幅",
+        "工业筛分与颗粒分类，适合作为设备章节页"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "woven-wire-boundary",
+      "file_path": "batch-011/item-009/材质背景/woven-wire-boundary.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "1e74580270c1a71282978668cc84722546cda4ef9a0b9636a9558b9fcf348fbd",
+      "quality_status": "passed_svg_structure",
+      "library": "background",
+      "batch": "011",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-bg-slate-cleavage",
+      "name_zh": "板岩解理边带",
+      "name_en": "slate cleavage",
+      "category": "材质背景",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "板岩解理边带",
+        "地质或建筑材料叙事，顶部岩片与浅色内容区分离"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "slate-cleavage",
+      "file_path": "batch-011/item-010/材质背景/slate-cleavage.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "92de7bbfbd84156da722fcde00081d8647c19ae63e68082a7a53f4e5245f8320",
+      "quality_status": "passed_svg_structure",
+      "library": "background",
+      "batch": "011",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
     }
   ]
 }

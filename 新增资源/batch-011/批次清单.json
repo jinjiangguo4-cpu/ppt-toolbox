@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "batch": "011",
+  "accepted": 10,
+  "by_type": {
+    "材质背景": 10
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "real50-bg-frosted-panel",
+    "real50-bg-marbling-basin",
+    "real50-bg-concrete-form-seams",
+    "real50-bg-cork-grain-strip",
+    "real50-bg-double-exposure-negative",
+    "real50-bg-louver-section",
+    "real50-bg-varnish-spot",
+    "real50-bg-pressed-leaf-veins",
+    "real50-bg-woven-wire-boundary",
+    "real50-bg-slate-cleavage"
+  ]
+}
