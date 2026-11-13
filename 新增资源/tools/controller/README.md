@@ -20,3 +20,9 @@ py -3 C:\PPT\toolbox\新增资源\tools\controller\run_knowledge_base_batch.py -
 计划可以使用有序的 `sources`，每个条目提供唯一 `id`，并沿用上述 command 或 directory 配置。控制器按需拉取下一来源，缓存取得的候选，并在状态中记录来源处理结果。失败来源会记下原因并切换。以独立状态文件运行 `--supply-only --target 200`，可检查真实候选数量、结构、许可证与索引查重，全程不提交资源。供给测试允许完整扫描最后一包，候选数可能高于目标。正式运行仍要求预审签名。
 
 `open_svg_pack.py` 支持从本地固定版本的 Tabler 官方 npm 包读取指定主题，例如 `["py","-3","open_svg_pack.py","tabler.tgz","Health","{out}"]`。对应来源配置 `"documents":["Tabler-LICENSE.txt"]`。供给测试通过表示可处理，不代表通过视觉审核或跨库视觉查重。
+
+## GitHub Actions
+
+在仓库 Actions 中选择 Build PPT knowledge base。smoke 使用公开托管执行器和合成测试基线，验证流水线，不发布资源。production 使用带 `ppt-kb-private` 标签的授权自托管执行器，需要 PowerShell 7、Python、Git、写入凭据，以及已同步至 main 的独立检出。将 `PPT_KB_HOME` 设置为只允许该执行账号访问的持久目录，内含 toolbox 检出、index.sqlite、plan.json 和运行后产生的 run.json。私有素材及状态不上传到 Actions。不要用该执行器运行不可信代码。中断后以同一 target 重启。单次生产限时两小时，无计划触发或自动自触发。
+
+计划可在 categories 中按索引分类设置 target 和 batch_size（1–50），每类达到上限后自动切换。类别目标指本轮新增。现有验证器能自动处理合规 SVG、SVG/JSON 配色及单页原生 PPTX，其余格式尚未接入。候选源应在私有计划中分别配置，并附可审阅的许可与预审签名。

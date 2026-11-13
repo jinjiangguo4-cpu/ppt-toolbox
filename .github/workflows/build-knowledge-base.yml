@@ -1,0 +1,46 @@
+name: Build PPT knowledge base
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Hosted smoke test or private production
+        type: choice
+        options: [smoke, production]
+        default: smoke
+      target:
+        description: Qualified additions for this run (1–882)
+        type: number
+        default: 882
+concurrency:
+  group: ppt-knowledge-base
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  smoke:
+    if: github.ref == 'refs/heads/main' && inputs.mode == 'smoke'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Test batching, quota and recovery against isolated remote
+        run: python3 新增资源/tools/controller/workflow_smoke.py
+  production:
+    if: github.ref == 'refs/heads/main' && inputs.mode == 'production'
+    runs-on: [self-hosted, ppt-kb-private]
+    timeout-minutes: 120
+    steps:
+      - name: Resume production on persistent checkout
+        shell: pwsh
+        env:
+          REQUESTED_TARGET: ${{ inputs.target }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $target = [int]$env:REQUESTED_TARGET
+          if ($target -lt 1 -or $target -gt 882) { throw 'Target must be 1–882' }
+          $root = $env:PPT_KB_HOME
+          if (-not $root) { throw 'PPT_KB_HOME must point to the private persistent data directory' }
+          $repo = Join-Path $root 'toolbox'
+          $entry = Join-Path $repo '新增资源/tools/controller/run_knowledge_base_batch.py'
+          python $entry --repo $repo --baseline (Join-Path $root 'index.sqlite') --plan (Join-Path $root 'plan.json') --state (Join-Path $root 'run.json') --target $target
+          exit $LASTEXITCODE

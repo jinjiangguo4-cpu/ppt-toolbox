@@ -20,6 +20,8 @@ with tempfile.TemporaryDirectory(prefix="ppt-integration-") as directory:
     run("git","config","user.name","Integration test",cwd=repo)
     run("git","config","user.email","integration@example.invalid",cwd=repo)
     run("git","push","origin","main",cwd=repo)
+    initial = len(json.loads((repo/"新增资源/增量索引.json").read_text(encoding="utf-8"))["assets"])
+
     pack=root/"fixtures"
     pack.mkdir()
     assets=[]
@@ -30,14 +32,14 @@ with tempfile.TemporaryDirectory(prefix="ppt-integration-") as directory:
         path=pack/(name+".svg")
         path.write_text(svg,encoding="utf-8")
         approved[name]=hashlib.sha256(hashlib.sha256(path.read_bytes()).hexdigest().encode()).hexdigest()
-        assets.append(dict(id=name,name_zh=name,name_en=name,category="材质背景",motif_key=name,
+        assets.append(dict(id=name,name_zh=name,name_en=name,category="材质背景" if i<100 else "特殊装饰",motif_key=name,
                            file_path=path.name,license="CC0-1.0"))
     assets.extend([dict(assets[0],id="repeat-fixture"),dict(assets[1],id="unapproved-fixture",
                  motif_key="unapproved-fixture",file_path="unapproved.svg")])
     (pack/"unapproved.svg").write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle r="3"/></svg>')
     (pack/"资源描述.json").write_text(json.dumps(assets,ensure_ascii=False),encoding="utf-8")
     plan=root/"plan.json"
-    plan.write_text(json.dumps({"packs":[dict(directory="fixtures",original_cc0=True,approved=approved)]}))
+    plan.write_text(json.dumps({"categories":{"材质背景":{"target":100,"batch_size":50},"特殊装饰":{"target":20,"batch_size":20}},"sources":[dict(id="missing",directory="absent"),dict(id="fixtures",directory="fixtures",original_cc0=True,approved=approved)]}))
     state=root/"state.json"
     cmd=[sys.executable,str(controller),"--repo",str(repo),"--baseline",str(baseline),
          "--plan",str(plan),"--state",str(state),"--target","1000","--batch-size","50"]
@@ -52,12 +54,14 @@ with tempfile.TemporaryDirectory(prefix="ppt-integration-") as directory:
     hook.unlink()
     run(*cmd)
     result=json.loads(state.read_text(encoding="utf-8"))
+    assert result["source_history"]["missing"]["status"]=="failed"
+    assert result["published_by_category"]=={"材质背景":100,"特殊装饰":20}
     assert result["completed"]==120 and result["shortfall"]==880
     assert [x["count"] for x in result["commits"]]==[50,50,20]
     assert result["stats"]["duplicate"]>=1 and result["stats"]["review_or_invalid"]>=1
     index=json.loads((repo/"新增资源/增量索引.json").read_text(encoding="utf-8"))["assets"]
-    assert len(index)==231 and len({r["id"] for r in index})==231
+    assert len(index)==initial+120 and len({r["id"] for r in index})==initial+120
     head=subprocess.check_output(["git","rev-parse","HEAD"],cwd=repo)
     run(*cmd)
     assert subprocess.check_output(["git","rev-parse","HEAD"],cwd=repo)==head
-    print("PASS: 122 fixtures, 120 accepted, outage recovery, 3 pushes, 231 unique index records, idempotent replay")
+    print("PASS: 122 fixtures, 120 accepted, outage recovery, 3 pushes, unique index records, idempotent replay")

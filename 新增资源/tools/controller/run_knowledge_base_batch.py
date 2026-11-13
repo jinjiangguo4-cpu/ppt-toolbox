@@ -190,6 +190,9 @@ def main():
                         raise
                     time.sleep(2**attempt)
             state["completed"]+=pending["count"]
+            counts=Counter(state.get("published_by_category",{}))
+            counts.update(pending.get("by_category",{}))
+            state["published_by_category"]=dict(counts)
             state["commits"].append(dict(batch=pending["batch"],commit=head,count=pending["count"]))
         state["pending"]=None
         save()
@@ -201,7 +204,12 @@ def main():
         return
     stats = Counter(state.get("stats",{}))
     by_category = Counter(state.get("eligible_by_category",{}))
-    sources=read(plan).get("sources",read(plan).get("packs",[]))
+    configuration=read(plan)
+    sources=configuration.get("sources",configuration.get("packs",[]))
+    limits=configuration.get("categories",{})
+    state.setdefault("published_by_category",{})
+    if len({str(pack.get("id",i)) for i,pack in enumerate(sources)})!=len(sources):
+        raise ValueError("Duplicate source IDs")
     history=state.setdefault("source_history",{})
     for source_index, pack in enumerate(sources):
         source_id=str(pack.get("id",source_index))
@@ -284,12 +292,22 @@ def main():
                     state["completed"] += len(accepted)
                     accepted=[]
                 while accepted and state["completed"]<args.target:
-                    size=min(args.batch_size,args.target-state["completed"])
+                    category=accepted[0][2]["category"]
+                    policy=limits.get(category,{})
+                    capacity=policy.get("target",args.target)-state["published_by_category"].get(category,0)
+                    if capacity<=0:
+                        accepted=[item for item in accepted if item[2]["category"]!=category]
+                        continue
+                    category_batch=policy.get("batch_size",args.batch_size)
+                    if not isinstance(category_batch,int) or not 1<=category_batch<=50:
+                        raise ValueError("Category batch size must be 1–50")
+                    selected=[item for item in accepted if item[2]["category"]==category][:min(
+                        category_batch,capacity,args.target-state["completed"])]
                     batch=read(progress)["next_batch"]
                     payload=stage/"payload"
                     payload.mkdir()
                     rows=[]
-                    for i,(root,pack,row) in enumerate(accepted[:size]):
+                    for i,(root,pack,row) in enumerate(selected):
                         row=dict(row)
                         prefix=f"item-{i+1:03}"
                         for key,names in (("file_path",[row["file_path"]]),("extra_paths",row.get("extra_paths",[]))):
@@ -313,7 +331,8 @@ def main():
                     destination=target/f"batch-{batch}"
                     if destination.exists() or remote_head()!=base:
                         raise RuntimeError("Batch path exists or remote moved")
-                    state["pending"]=dict(base=base,batch=batch,count=len(rows),message=message)
+                    state["pending"]=dict(base=base,batch=batch,count=len(rows),message=message,
+                                          by_category=dict(Counter(r["category"] for r in rows)))
                     save()
                     shutil.move(str(payload),destination)
                     subprocess.run([sys.executable,str(tools/"finalize.py"),str(target),batch,str(baseline)],
@@ -322,7 +341,8 @@ def main():
                     git("diff","--cached","--check")
                     git("-c","commit.gpgsign=false","commit","-m",message)
                     recover()
-                    del accepted[:size]
+                    published={item[2]["id"] for item in selected}
+                    accepted=[item for item in accepted if item[2]["id"] not in published]
         except (OSError, subprocess.SubprocessError, ValueError) as error:
             if state["pending"]:
                 raise
@@ -332,6 +352,8 @@ def main():
         history[source_id]={"status":"processed","candidates":len(candidates)}
         save()
     state["result"]="target_reached" if state["completed"]>=args.target else "candidate_pool_exhausted"
+    state["category_shortfall"]={category:max(0,policy["target"]-state["published_by_category"].get(category,0))
+                                 for category,policy in limits.items() if "target" in policy}
     state["shortfall"]=max(0,args.target-state["completed"])
     save()
     print(json.dumps(state,ensure_ascii=False,indent=2))
