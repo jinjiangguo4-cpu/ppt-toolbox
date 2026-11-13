@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "pptb009-magnifier-callout-ring",
+      "name_zh": "局部放大标记",
+      "name_en": "magnifier callout ring",
+      "category": "特殊装饰",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "局部放大标记",
+        "标记产品细节，在右端连接局部放大图"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "magnifier-callout-ring",
+      "file_path": "item-001/特殊装饰/magnifier-callout-ring.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "sha256": "c37050794fa1e44ab702b4d89f385de0e6d82a07925099fe178b44f183433586",
+      "quality_status": "passed_svg_structure",
+      "library": "decoration",
+      "batch": "009",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb009-double-edge-crop",
+      "name_zh": "双边裁切标尺",
+      "name_en": "double edge crop",
+      "category": "特殊装饰",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "双边裁切标尺",
+        "为对照图标注同一取样区域的左右边界"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "double-edge-crop",
+      "file_path": "item-002/特殊装饰/double-edge-crop.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "sha256": "cb5d6de5e7b2a7ece82f2dceefe9494d57cc41855a0383316ae645fd1094715e",
+      "quality_status": "passed_svg_structure",
+      "library": "decoration",
+      "batch": "009",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb009-chapter-tab-stair",
+      "name_zh": "章节阶梯页签",
+      "name_en": "chapter tab stair",
+      "category": "特殊装饰",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "章节阶梯页签",
+        "将章节扉页引到下一层主题"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "chapter-tab-stair",
+      "file_path": "item-003/特殊装饰/chapter-tab-stair.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "sha256": "6e864c2f7d391f37cf6d6c8d87d1428a7666b058caa796a8bf3e921f779ab3e0",
+      "quality_status": "passed_svg_structure",
+      "library": "decoration",
+      "batch": "009",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb009-dimension-span-ticks",
+      "name_zh": "尺寸跨距标线",
+      "name_en": "dimension span ticks",
+      "category": "特殊装饰",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "尺寸跨距标线",
+        "为设备图提供尺寸标注底稿"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "dimension-span-ticks",
+      "file_path": "item-004/特殊装饰/dimension-span-ticks.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "sha256": "bf11a6415588aa35e2b452d28c01cf84b0dea4944220c1859fe11381071f14f0",
+      "quality_status": "passed_svg_structure",
+      "library": "decoration",
+      "batch": "009",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb009-reference-registration-cross",
+      "name_zh": "参考基点十字标记",
+      "name_en": "reference registration cross",
+      "category": "特殊装饰",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "参考基点十字标记",
+        "给平面图或摄影图提供统一定位基点"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "reference-registration-cross",
+      "file_path": "item-005/特殊装饰/reference-registration-cross.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "sha256": "1c2365ddca2488f23ef6f1f986d81dc75df137d0b1de2c87e0aa2d71518c7b56",
+      "quality_status": "passed_svg_structure",
+      "library": "decoration",
+      "batch": "009",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb009-negative-space-cutouts",
+      "name_zh": "镂空圆孔边带",
+      "name_en": "negative space cutouts",
+      "category": "特殊装饰",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "镂空圆孔边带",
+        "为档案与印刷专题做边缘装饰"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "negative-space-cutouts",
+      "file_path": "item-006/特殊装饰/negative-space-cutouts.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "sha256": "d86642dbb2ba049e974a186e5b5342f01b42a9744ccbe1e5358b732e7519a673",
+      "quality_status": "passed_svg_structure",
+      "library": "decoration",
+      "batch": "009",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb009-open-quote-pair",
+      "name_zh": "成对开引号饰件",
+      "name_en": "open quote pair",
+      "category": "特殊装饰",
+      "subcategory": "原创矢量",
+      "keywords_zh": [
+        "成对开引号饰件",
+        "用于访谈引语开头，正文另外编辑"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "open-quote-pair",
+      "file_path": "item-007/特殊装饰/open-quote-pair.svg",
+      "editability": "SVG-path-editable",
+      "license": "CC0-1.0",
+      "sha256": "cef7543d6b4ec3c98f2bd533b054bcf34f40468d7825743b9032b8d71b5d576f",
+      "quality_status": "passed_svg_structure",
+      "library": "decoration",
+      "batch": "009",
+      "format": "svg",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    }
+  ]
+}

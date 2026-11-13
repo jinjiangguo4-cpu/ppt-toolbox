@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "batch": "009",
+  "accepted": 7,
+  "by_type": {
+    "特殊装饰": 7
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "pptb009-magnifier-callout-ring",
+    "pptb009-double-edge-crop",
+    "pptb009-chapter-tab-stair",
+    "pptb009-dimension-span-ticks",
+    "pptb009-reference-registration-cross",
+    "pptb009-negative-space-cutouts",
+    "pptb009-open-quote-pair"
+  ]
+}
