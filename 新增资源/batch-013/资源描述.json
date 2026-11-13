@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tabler-outline-massage",
+    "name_zh": "massage 图标",
+    "name_en": "massage",
+    "category": "特殊装饰",
+    "subcategory": "Health",
+    "motif_key": "tabler-outline-massage",
+    "file_path": "item-001/icons/massage.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/massage",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/massage.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "attribution_required": true,
+    "sha256": "472861a52e51361d85708aa851bf16f4dfc7ab8fc7dab55ccf1d778e52471295",
+    "extra_paths": [
+      "item-001/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-skull",
+    "name_zh": "skull 图标",
+    "name_en": "skull",
+    "category": "特殊装饰",
+    "subcategory": "Health",
+    "motif_key": "tabler-outline-skull",
+    "file_path": "item-002/icons/skull.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/skull",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/skull.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "attribution_required": true,
+    "sha256": "901adf52c8cf7d6877ee6f6015fc25465eae3e7d26692354c1b2281394404074",
+    "extra_paths": [
+      "item-002/Tabler-LICENSE.txt"
+    ]
+  }
+]

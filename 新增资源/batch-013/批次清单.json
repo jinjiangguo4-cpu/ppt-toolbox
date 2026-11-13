@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "batch": "013",
+  "accepted": 2,
+  "by_type": {
+    "特殊装饰": 2
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "tabler-outline-massage",
+    "tabler-outline-skull"
+  ]
+}
