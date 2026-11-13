@@ -38,19 +38,20 @@ def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def validate(root, row, pack):
+def validate(root, row, pack, supply_only=False):
     path = inside(root, row["file_path"])
-    if row["license"] not in {"CC0-1.0", "Apache-2.0"}:
+    if row["license"] not in {"CC0-1.0", "Apache-2.0", "MIT"}:
         raise ValueError("License needs review")
     if row["license"] == "CC0-1.0" and not pack.get("original_cc0"):
         raise ValueError("Missing original CC0 declaration")
-    if row["license"] == "Apache-2.0":
+    if row["license"] in {"Apache-2.0", "MIT"}:
         if not (row.get("source_url","").startswith("https://") and row.get("author")
                 and row.get("license_url","").startswith("https://")):
             raise ValueError("Missing attribution")
-        if not any("Apache License" in inside(root,n).read_text(encoding="utf-8")
+        marker = {"Apache-2.0": "Apache License", "MIT": "Permission is hereby granted"}[row["license"]]
+        if not any(marker in inside(root,n).read_text(encoding="utf-8")
                    for n in pack.get("documents",[]) if "LICENSE" in n):
-            raise ValueError("Missing Apache license text")
+            raise ValueError("Missing license text")
     if not row.get("motif_key") or not row.get("name_zh"):
         raise ValueError("Missing resource description")
     extras = [inside(root,n) for n in row.get("extra_paths",[])]
@@ -107,7 +108,7 @@ def validate(root, row, pack):
         raise ValueError("Unsupported format for automatic admission")
     # Approval binds the full payload to a human-reviewed pack, including companion bytes.
     signature = hashlib.sha256("\n".join(sha(p) for p in [path,*extras]).encode()).hexdigest()
-    if pack.get("approved",{}).get(row["id"]) != signature:
+    if not supply_only and pack.get("approved",{}).get(row["id"]) != signature:
         raise ValueError("Visual or design review required")
     return sha(path)
 
@@ -121,6 +122,7 @@ def main():
     cli.add_argument("--batch-size", type=int, default=50)
     cli.add_argument("--remote", default="origin")
     cli.add_argument("--branch", default="main")
+    cli.add_argument("--supply-only", action="store_true")
     args = cli.parse_args()
     repo, baseline, plan, status = (getattr(args,n).resolve() for n in ("repo","baseline","plan","state"))
     if status.is_relative_to(repo) or baseline.is_relative_to(repo):
@@ -144,7 +146,7 @@ def main():
     progress = target/"任务状态.json"
     tools = target/"tools"
     settings = dict(repo=str(repo), baseline=sha(baseline), plan=sha(plan), goal=args.target,
-                    category=args.category, remote=git("remote","get-url",args.remote),branch=args.branch)
+                    category=args.category, supply_only=args.supply_only, remote=git("remote","get-url",args.remote),branch=args.branch)
     if not status.exists():
         if git("status","--porcelain") or git("rev-parse","HEAD")!=remote_head():
             raise RuntimeError("Start from a clean checkout synchronized to the remote.")
@@ -197,108 +199,140 @@ def main():
         raise RuntimeError("Checkout must remain clean and synchronized.")
     if state["completed"]>=args.target:
         return
-    stats = Counter()
-    by_category = Counter()
-    with TemporaryDirectory(prefix="ppt-production-") as tmp:
-        stage = Path(tmp)
-        packs = read(plan)["packs"]
-        candidates=[]
-        for i,pack in enumerate(packs):
-            root=stage/str(i)
-            root.mkdir()
-            if "command" in pack:
-                command=[part.replace("{out}",str(root)).replace("{plan}",str(plan.parent))
-                         for part in pack["command"]]
-                subprocess.run(command,cwd=plan.parent,env=env,check=True,timeout=900)
-            else:
-                shutil.copytree((plan.parent/pack["directory"]).resolve(),root,dirs_exist_ok=True)
-            for row in read(root/"资源描述.json"):
-                if not args.category or row["category"] in args.category:
-                    candidates.append((root,pack,row))
-        prior = read(catalog)["assets"]
-        known = {r["id"] for r in prior}
-        hashes = {r["sha256"] for r in prior}
-        motifs = {r.get("motif_key") for r in prior}
-        prepared=[]
-        pending_review=[]
-        for root,pack,row in candidates:
-            stats["candidates"]+=1
-            try:
-                path = inside(root,row["file_path"])
-                digest = sha(path)
-                if row["id"] in known or digest in hashes or row.get("motif_key") in motifs:
-                    stats["duplicate"]+=1
-                    continue
-                digest=validate(root,row,pack)
-            except (ValueError,KeyError,StopIteration,ET.ParseError,OSError):
-                stats["review_or_invalid"]+=1
-                pending_review.append(row.get("id"))
-                continue
-            stats["validated"]+=1
-            known.add(row["id"])
-            hashes.add(digest)
-            motifs.add(row["motif_key"])
-            row["sha256"]=digest
-            prepared.append((root,pack,row))
-        write(stage/"candidates.json",[row for _,_,row in prepared])
-        subprocess.run([sys.executable,str(tools/"audit.py"),str(baseline),
-                        str(stage/"candidates.json"),"--accepted",str(catalog),
-                        "--out",str(stage/"audit.json")],env=env,check=True)
-        checked=read(stage/"audit.json")["results"]
-        accepted=[]
-        for (root,pack,row),review in zip(prepared,checked,strict=True):
-            if review["status"]!="pending_review":
-                stats["duplicate"]+=1
-            elif any(review[k]["content"] for k in ("baseline","accepted_additions","earlier_candidates")):
-                stats["review_or_invalid"]+=1
-                pending_review.append(row["id"])
-            else:
-                accepted.append((root,pack,row))
-                by_category[row["category"]]+=1
-        state.update(stats=dict(stats),eligible_by_category=dict(by_category),review_ids=pending_review)
-        save()
-        while accepted and state["completed"]<args.target:
-            size=min(args.batch_size,args.target-state["completed"])
-            batch=read(progress)["next_batch"]
-            payload=stage/"payload"
-            payload.mkdir()
-            rows=[]
-            for i,(root,pack,row) in enumerate(accepted[:size]):
-                row=dict(row)
-                prefix=f"item-{i+1:03}"
-                for key,names in (("file_path",[row["file_path"]]),("extra_paths",row.get("extra_paths",[]))):
-                    output=[]
-                    for n in names:
-                        dest=payload/prefix/n
-                        if not dest.resolve().is_relative_to((payload/prefix).resolve()):
-                            raise ValueError("Unsafe publication path")
-                        dest.parent.mkdir(parents=True,exist_ok=True)
-                        shutil.copyfile(inside(root,n),dest)
-                        output.append(dest.relative_to(payload).as_posix())
-                    row[key]=output[0] if key=="file_path" else output
-                for n in pack.get("documents",[]):
-                    source=inside(root,n)
-                    shutil.copyfile(source,payload/prefix/source.name)
-                    row["extra_paths"].append(f"{prefix}/{source.name}")
-                rows.append(row)
-            write(payload/"资源描述.json",rows)
-            base=git("rev-parse","HEAD")
-            message=f"Publish automated PPT batch {batch}"
-            destination=target/f"batch-{batch}"
-            if destination.exists() or remote_head()!=base:
-                raise RuntimeError("Batch path exists or remote moved")
-            state["pending"]=dict(base=base,batch=batch,count=len(rows),message=message)
+    stats = Counter(state.get("stats",{}))
+    by_category = Counter(state.get("eligible_by_category",{}))
+    sources=read(plan).get("sources",read(plan).get("packs",[]))
+    history=state.setdefault("source_history",{})
+    for source_index, pack in enumerate(sources):
+        source_id=str(pack.get("id",source_index))
+        if source_id in history or state["completed"]>=args.target:
+            continue
+        try:
+            with TemporaryDirectory(prefix="ppt-production-") as tmp:
+                stage = Path(tmp)
+                packs = [pack]
+                candidates=[]
+                for i,pack in enumerate(packs):
+                    root=stage/str(i)
+                    root.mkdir()
+                    cached=status.parent/(status.stem+".sources")/str(source_index)
+                    if cached.exists():
+                        shutil.copytree(cached,root,dirs_exist_ok=True)
+                    elif "command" in pack:
+                        command=[part.replace("{out}",str(root)).replace("{plan}",str(plan.parent))
+                                 for part in pack["command"]]
+                        subprocess.run(command,cwd=plan.parent,env=env,check=True,timeout=900)
+                    else:
+                        shutil.copytree((plan.parent/pack["directory"]).resolve(),root,dirs_exist_ok=True)
+                    descriptions=read(root/"资源描述.json")
+                    if not cached.exists():
+                        cached.parent.mkdir(parents=True,exist_ok=True)
+                        incoming=cached.with_suffix(".incoming")
+                        if incoming.exists():
+                            shutil.rmtree(incoming)
+                        shutil.copytree(root,incoming)
+                        incoming.rename(cached)
+                    for row in descriptions:
+                        if not args.category or row["category"] in args.category:
+                            candidates.append((root,pack,row))
+                prior = read(catalog)["assets"]
+                if args.supply_only:
+                    prior += state.get("test_candidates",[])
+                known = {r["id"] for r in prior}
+                hashes = {r["sha256"] for r in prior}
+                motifs = {r.get("motif_key") for r in prior}
+                prepared=[]
+                pending_review=list(state.get("review_ids",[]))
+                for root,pack,row in candidates:
+                    stats["candidates"]+=1
+                    try:
+                        path = inside(root,row["file_path"])
+                        digest = sha(path)
+                        if row["id"] in known or digest in hashes or row.get("motif_key") in motifs:
+                            stats["duplicate"]+=1
+                            continue
+                        digest=validate(root,row,pack,args.supply_only)
+                    except (ValueError,KeyError,StopIteration,ET.ParseError,OSError):
+                        stats["review_or_invalid"]+=1
+                        pending_review.append(row.get("id"))
+                        continue
+                    stats["validated"]+=1
+                    known.add(row["id"])
+                    hashes.add(digest)
+                    motifs.add(row["motif_key"])
+                    row["sha256"]=digest
+                    prepared.append((root,pack,row))
+                write(stage/"prior.json",prior)
+                write(stage/"candidates.json",[row for _,_,row in prepared])
+                subprocess.run([sys.executable,str(tools/"audit.py"),str(baseline),
+                                str(stage/"candidates.json"),"--accepted",str(stage/"prior.json"),
+                                "--out",str(stage/"audit.json")],env=env,check=True)
+                checked=read(stage/"audit.json")["results"]
+                accepted=[]
+                for (root,pack,row),review in zip(prepared,checked,strict=True):
+                    if review["status"]!="pending_review":
+                        stats["duplicate"]+=1
+                    elif any(review[k]["content"] for k in ("baseline","accepted_additions","earlier_candidates")):
+                        stats["review_or_invalid"]+=1
+                        pending_review.append(row["id"])
+                    else:
+                        accepted.append((root,pack,row))
+                        by_category[row["category"]]+=1
+                state.update(stats=dict(stats),eligible_by_category=dict(by_category),review_ids=pending_review)
+                if args.supply_only:
+                    state.setdefault("test_candidates",[]).extend(row for _,_,row in accepted)
+                    state["completed"] += len(accepted)
+                    accepted=[]
+                while accepted and state["completed"]<args.target:
+                    size=min(args.batch_size,args.target-state["completed"])
+                    batch=read(progress)["next_batch"]
+                    payload=stage/"payload"
+                    payload.mkdir()
+                    rows=[]
+                    for i,(root,pack,row) in enumerate(accepted[:size]):
+                        row=dict(row)
+                        prefix=f"item-{i+1:03}"
+                        for key,names in (("file_path",[row["file_path"]]),("extra_paths",row.get("extra_paths",[]))):
+                            output=[]
+                            for n in names:
+                                dest=payload/prefix/n
+                                if not dest.resolve().is_relative_to((payload/prefix).resolve()):
+                                    raise ValueError("Unsafe publication path")
+                                dest.parent.mkdir(parents=True,exist_ok=True)
+                                shutil.copyfile(inside(root,n),dest)
+                                output.append(dest.relative_to(payload).as_posix())
+                            row[key]=output[0] if key=="file_path" else output
+                        for n in pack.get("documents",[]):
+                            source=inside(root,n)
+                            shutil.copyfile(source,payload/prefix/source.name)
+                            row["extra_paths"].append(f"{prefix}/{source.name}")
+                        rows.append(row)
+                    write(payload/"资源描述.json",rows)
+                    base=git("rev-parse","HEAD")
+                    message=f"Publish automated PPT batch {batch}"
+                    destination=target/f"batch-{batch}"
+                    if destination.exists() or remote_head()!=base:
+                        raise RuntimeError("Batch path exists or remote moved")
+                    state["pending"]=dict(base=base,batch=batch,count=len(rows),message=message)
+                    save()
+                    shutil.move(str(payload),destination)
+                    subprocess.run([sys.executable,str(tools/"finalize.py"),str(target),batch,str(baseline)],
+                                   env=env,check=True)
+                    git("add","--",str(destination),str(catalog),str(progress))
+                    git("diff","--cached","--check")
+                    git("-c","commit.gpgsign=false","commit","-m",message)
+                    recover()
+                    del accepted[:size]
+        except (OSError, subprocess.SubprocessError, ValueError) as error:
+            if state["pending"]:
+                raise
+            history[source_id]={"status":"failed","error":str(error)}
             save()
-            shutil.move(str(payload),destination)
-            subprocess.run([sys.executable,str(tools/"finalize.py"),str(target),batch,str(baseline)],
-                           env=env,check=True)
-            git("add","--",str(destination),str(catalog),str(progress))
-            git("diff","--cached","--check")
-            git("-c","commit.gpgsign=false","commit","-m",message)
-            recover()
-            del accepted[:size]
+            continue
+        history[source_id]={"status":"processed","candidates":len(candidates)}
+        save()
     state["result"]="target_reached" if state["completed"]>=args.target else "candidate_pool_exhausted"
-    state["shortfall"]=args.target-state["completed"]
+    state["shortfall"]=max(0,args.target-state["completed"])
     save()
     print(json.dumps(state,ensure_ascii=False,indent=2))
     lock.close()

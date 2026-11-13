@@ -14,3 +14,9 @@ py -3 C:\PPT\toolbox\新增资源\tools\controller\run_knowledge_base_batch.py -
 自动入库覆盖 SVG、配色 SVG/JSON 和符合现有单页规则的原生 PPTX。PNG、字体、研究记录和其他许可证目前需要另行审核，不能由本入口直接发布。结构检查不能代替视觉审阅，PowerPoint 客户端实测状态明确记录。运行目标是合格数上限；候选不足时记录 shortfall。随附计划是模板，不包含一千份获批候选。
 
 中断后用完全相同的命令恢复。程序记录尚未完成的提交，推送失败会有限重试。若远端已由其他人推进，保留本地提交并停止，先处理分支冲突。不要手工删除 run.json。目标、旧库或计划变动时先结束旧运行，再为新运行选用新的状态文件。GitHub 认证使用 Git Credential Manager 或已配置的 gh 凭据助手。
+
+## 多来源与供给测试
+
+计划可以使用有序的 `sources`，每个条目提供唯一 `id`，并沿用上述 command 或 directory 配置。控制器按需拉取下一来源，缓存取得的候选，并在状态中记录来源处理结果。失败来源会记下原因并切换。以独立状态文件运行 `--supply-only --target 200`，可检查真实候选数量、结构、许可证与索引查重，全程不提交资源。供给测试允许完整扫描最后一包，候选数可能高于目标。正式运行仍要求预审签名。
+
+`open_svg_pack.py` 支持从本地固定版本的 Tabler 官方 npm 包读取指定主题，例如 `["py","-3","open_svg_pack.py","tabler.tgz","Health","{out}"]`。对应来源配置 `"documents":["Tabler-LICENSE.txt"]`。供给测试通过表示可处理，不代表通过视觉审核或跨库视觉查重。
