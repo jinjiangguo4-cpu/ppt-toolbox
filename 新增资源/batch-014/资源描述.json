@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "tabler-outline-building-carousel",
+    "name_zh": "building-carousel 图标",
+    "name_en": "building carousel",
+    "category": "特殊装饰",
+    "subcategory": "Buildings",
+    "motif_key": "tabler-outline-building-carousel",
+    "file_path": "item-001/icons/building-carousel.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/building-carousel",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/building-carousel.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "a7aa07f1a5782542af89d82b15e590b3e4bd6765c5b0ce2f35f38f12dc5828c7",
+    "extra_paths": [
+      "item-001/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-building-castle",
+    "name_zh": "building-castle 图标",
+    "name_en": "building castle",
+    "category": "特殊装饰",
+    "subcategory": "Buildings",
+    "motif_key": "tabler-outline-building-castle",
+    "file_path": "item-002/icons/building-castle.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/building-castle",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/building-castle.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "4da96f71db10e5f0aee4517e64838e2a0bd29191248b81fb5b836ed91d7b15b0",
+    "extra_paths": [
+      "item-002/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-building-circus",
+    "name_zh": "building-circus 图标",
+    "name_en": "building circus",
+    "category": "特殊装饰",
+    "subcategory": "Buildings",
+    "motif_key": "tabler-outline-building-circus",
+    "file_path": "item-003/icons/building-circus.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/building-circus",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/building-circus.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "19ef545b8fe5eec1cda1104d009fe66df29b4e69d3a0dacb98edc0aef8e3b867",
+    "extra_paths": [
+      "item-003/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-building-monument",
+    "name_zh": "building-monument 图标",
+    "name_en": "building monument",
+    "category": "特殊装饰",
+    "subcategory": "Buildings",
+    "motif_key": "tabler-outline-building-monument",
+    "file_path": "item-004/icons/building-monument.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/building-monument",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/building-monument.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "1baef7589dfe202ee2404d572f092cfa255c87467323778d27a22cae2b327007",
+    "extra_paths": [
+      "item-004/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-building-pavilion",
+    "name_zh": "building-pavilion 图标",
+    "name_en": "building pavilion",
+    "category": "特殊装饰",
+    "subcategory": "Buildings",
+    "motif_key": "tabler-outline-building-pavilion",
+    "file_path": "item-005/icons/building-pavilion.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/building-pavilion",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/building-pavilion.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "541848f05dadf93a5073c5d0116e3afe8753159ab65a7eb4f99b2debf3879734",
+    "extra_paths": [
+      "item-005/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-building-skyscraper",
+    "name_zh": "building-skyscraper 图标",
+    "name_en": "building skyscraper",
+    "category": "特殊装饰",
+    "subcategory": "Buildings",
+    "motif_key": "tabler-outline-building-skyscraper",
+    "file_path": "item-006/icons/building-skyscraper.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/building-skyscraper",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/building-skyscraper.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "c546de00df2df09570efcd3ea2fd54d2628bacc88e29d2b572d5dbc7fc4a9b34",
+    "extra_paths": [
+      "item-006/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-fence",
+    "name_zh": "fence 图标",
+    "name_en": "fence",
+    "category": "特殊装饰",
+    "subcategory": "Buildings",
+    "motif_key": "tabler-outline-fence",
+    "file_path": "item-007/icons/fence.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/fence",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/fence.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "42f10a1daf5ee3a39db0373d8764eff169fcffae9499ef8c38823d8d3b927edc",
+    "extra_paths": [
+      "item-007/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-window",
+    "name_zh": "window 图标",
+    "name_en": "window",
+    "category": "特殊装饰",
+    "subcategory": "Buildings",
+    "motif_key": "tabler-outline-window",
+    "file_path": "item-008/icons/window.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/window",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/window.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "d66c9d117a947cb44b280125bbe4b7a0d78fb2d85e0e834afd20966984e694cc",
+    "extra_paths": [
+      "item-008/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-device-desktop",
+    "name_zh": "device-desktop 图标",
+    "name_en": "device desktop",
+    "category": "特殊装饰",
+    "subcategory": "Devices",
+    "motif_key": "tabler-outline-device-desktop",
+    "file_path": "item-009/icons/device-desktop.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/device-desktop",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/device-desktop.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "aaca0278d00576e3bc06062bde0bc25a3caf4384f01f9cef298f893a0c2dfef4",
+    "extra_paths": [
+      "item-009/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-device-gamepad",
+    "name_zh": "device-gamepad 图标",
+    "name_en": "device gamepad",
+    "category": "特殊装饰",
+    "subcategory": "Devices",
+    "motif_key": "tabler-outline-device-gamepad",
+    "file_path": "item-010/icons/device-gamepad.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/device-gamepad",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/device-gamepad.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "8df8286adacf85f4e7663ee505b298f71886cb9298b68bad2a2e7d76c0256255",
+    "extra_paths": [
+      "item-010/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-device-mobile",
+    "name_zh": "device-mobile 图标",
+    "name_en": "device mobile",
+    "category": "特殊装饰",
+    "subcategory": "Devices",
+    "motif_key": "tabler-outline-device-mobile",
+    "file_path": "item-011/icons/device-mobile.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/device-mobile",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/device-mobile.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "2d32b5918ccd8d60b0096f7cbb9e66b25847a81860929bfb6f036d04beb9c6d9",
+    "extra_paths": [
+      "item-011/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-device-speaker",
+    "name_zh": "device-speaker 图标",
+    "name_en": "device speaker",
+    "category": "特殊装饰",
+    "subcategory": "Devices",
+    "motif_key": "tabler-outline-device-speaker",
+    "file_path": "item-012/icons/device-speaker.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/device-speaker",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/device-speaker.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "2aa777216f7ef9e95cf01eca0dbede660b397f079820c335b4588eb84790026c",
+    "extra_paths": [
+      "item-012/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-device-tv",
+    "name_zh": "device-tv 图标",
+    "name_en": "device tv",
+    "category": "特殊装饰",
+    "subcategory": "Devices",
+    "motif_key": "tabler-outline-device-tv",
+    "file_path": "item-013/icons/device-tv.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/device-tv",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/device-tv.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "55d72b91c23e4c30d4f4ce0e02ef91de63c9f0201cb14d34f1c699636ff25c7e",
+    "extra_paths": [
+      "item-013/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-device-watch",
+    "name_zh": "device-watch 图标",
+    "name_en": "device watch",
+    "category": "特殊装饰",
+    "subcategory": "Devices",
+    "motif_key": "tabler-outline-device-watch",
+    "file_path": "item-014/icons/device-watch.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/device-watch",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/device-watch.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "dd27d3d1b0e1d0f4c3a41e6be59c61d9b91de40a3fc435028f1d5bff1c12fb3b",
+    "extra_paths": [
+      "item-014/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-printer",
+    "name_zh": "printer 图标",
+    "name_en": "printer",
+    "category": "特殊装饰",
+    "subcategory": "Devices",
+    "motif_key": "tabler-outline-printer",
+    "file_path": "item-015/icons/printer.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/printer",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/printer.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "da402844e7a4c73955d89a76f1aa71c409f64e5b9e974b46c343e18e68678b9f",
+    "extra_paths": [
+      "item-015/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-campfire",
+    "name_zh": "campfire 图标",
+    "name_en": "campfire",
+    "category": "特殊装饰",
+    "subcategory": "Map",
+    "motif_key": "tabler-outline-campfire",
+    "file_path": "item-016/icons/campfire.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/campfire",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/campfire.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "01cc5e392f49fd82a3651f1bfb5d33c7b4b09eb59c3148165ad6e66cded14359",
+    "extra_paths": [
+      "item-016/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-flag",
+    "name_zh": "flag 图标",
+    "name_en": "flag",
+    "category": "特殊装饰",
+    "subcategory": "Map",
+    "motif_key": "tabler-outline-flag",
+    "file_path": "item-017/icons/flag.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/flag",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/flag.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "059113ef02670254ada85fb1b61b4e1ff6514bdb6733d2b7da25ac7cd0787f8c",
+    "extra_paths": [
+      "item-017/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-map-pin",
+    "name_zh": "map-pin 图标",
+    "name_en": "map pin",
+    "category": "特殊装饰",
+    "subcategory": "Map",
+    "motif_key": "tabler-outline-map-pin",
+    "file_path": "item-018/icons/map-pin.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/map-pin",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/map-pin.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "e2e14a43d41235b036e5352b10d41f2aa444361c7cd654a07ab46115ba691362",
+    "extra_paths": [
+      "item-018/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-route",
+    "name_zh": "route 图标",
+    "name_en": "route",
+    "category": "特殊装饰",
+    "subcategory": "Map",
+    "motif_key": "tabler-outline-route",
+    "file_path": "item-019/icons/route.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/route",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/route.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "5fa0db786e6a74e59a03025f3d7a0aee0d59b351fb1ca67c4fcbbf7512b529ba",
+    "extra_paths": [
+      "item-019/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-tent",
+    "name_zh": "tent 图标",
+    "name_en": "tent",
+    "category": "特殊装饰",
+    "subcategory": "Map",
+    "motif_key": "tabler-outline-tent",
+    "file_path": "item-020/icons/tent.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/tent",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/tent.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "8d274edd563e2724be5257786e23c84a4ca2aad7fcb5e48905d48ce53b1bbe2d",
+    "extra_paths": [
+      "item-020/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-cloud-fog",
+    "name_zh": "cloud-fog 图标",
+    "name_en": "cloud fog",
+    "category": "特殊装饰",
+    "subcategory": "Weather",
+    "motif_key": "tabler-outline-cloud-fog",
+    "file_path": "item-021/icons/cloud-fog.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/cloud-fog",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/cloud-fog.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "71059fa1328a3ce9d38f42e7ace1b9344e293d0fbeacbbfc95049f77e944b31a",
+    "extra_paths": [
+      "item-021/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-cloud-rain",
+    "name_zh": "cloud-rain 图标",
+    "name_en": "cloud rain",
+    "category": "特殊装饰",
+    "subcategory": "Weather",
+    "motif_key": "tabler-outline-cloud-rain",
+    "file_path": "item-022/icons/cloud-rain.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/cloud-rain",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/cloud-rain.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "3537c1881c44b22eaaf9c91ea183fac52f2fdc6801f9a737bf6560f517affa1e",
+    "extra_paths": [
+      "item-022/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-rainbow",
+    "name_zh": "rainbow 图标",
+    "name_en": "rainbow",
+    "category": "特殊装饰",
+    "subcategory": "Weather",
+    "motif_key": "tabler-outline-rainbow",
+    "file_path": "item-023/icons/rainbow.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/rainbow",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/rainbow.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "fd5b7b60e1985058e36ff47bcdc3285d56cd76520ef2e5c515480b9b5faf3683",
+    "extra_paths": [
+      "item-023/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-sun",
+    "name_zh": "sun 图标",
+    "name_en": "sun",
+    "category": "特殊装饰",
+    "subcategory": "Weather",
+    "motif_key": "tabler-outline-sun",
+    "file_path": "item-024/icons/sun.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/sun",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/sun.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "142a67bb7961f0e7bf545a52bead547d13bae58360746739a8dfa3efb6a032b0",
+    "extra_paths": [
+      "item-024/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-tornado",
+    "name_zh": "tornado 图标",
+    "name_en": "tornado",
+    "category": "特殊装饰",
+    "subcategory": "Weather",
+    "motif_key": "tabler-outline-tornado",
+    "file_path": "item-025/icons/tornado.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/tornado",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/tornado.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "20328855b4ee98e790c2d0f3e04a6f33eda98457fbc83d4ccc6d621785fbc091",
+    "extra_paths": [
+      "item-025/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-wind",
+    "name_zh": "wind 图标",
+    "name_en": "wind",
+    "category": "特殊装饰",
+    "subcategory": "Weather",
+    "motif_key": "tabler-outline-wind",
+    "file_path": "item-026/icons/wind.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/wind",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/wind.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "e32a8519cab06c15301f48e40903305dc98267cb0e61ac1eae472cb9d3fc0d05",
+    "extra_paths": [
+      "item-026/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-apple",
+    "name_zh": "apple 图标",
+    "name_en": "apple",
+    "category": "特殊装饰",
+    "subcategory": "Food",
+    "motif_key": "tabler-outline-apple",
+    "file_path": "item-027/icons/apple.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/apple",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/apple.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "021734c29a187554f3244b081b2741aa82d8aaf73719a3f8beedd21b76261a2f",
+    "extra_paths": [
+      "item-027/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-beer",
+    "name_zh": "beer 图标",
+    "name_en": "beer",
+    "category": "特殊装饰",
+    "subcategory": "Food",
+    "motif_key": "tabler-outline-beer",
+    "file_path": "item-028/icons/beer.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/beer",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/beer.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "3f24d0d3f274256d3e74c3e19e8983f9bedd9bd079d94ab8abe18033f845156e",
+    "extra_paths": [
+      "item-028/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-coffee",
+    "name_zh": "coffee 图标",
+    "name_en": "coffee",
+    "category": "特殊装饰",
+    "subcategory": "Food",
+    "motif_key": "tabler-outline-coffee",
+    "file_path": "item-029/icons/coffee.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/coffee",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/coffee.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "9cd801e843eef46d15119fcd88e702a279277b76304eb99c6af924c793f4619f",
+    "extra_paths": [
+      "item-029/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-egg",
+    "name_zh": "egg 图标",
+    "name_en": "egg",
+    "category": "特殊装饰",
+    "subcategory": "Food",
+    "motif_key": "tabler-outline-egg",
+    "file_path": "item-030/icons/egg.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/egg",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/egg.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "2aa7b917e43443acbfe08a56d0e8507f2267391fe04aff5c2e3a2271721d4488",
+    "extra_paths": [
+      "item-030/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-meat",
+    "name_zh": "meat 图标",
+    "name_en": "meat",
+    "category": "特殊装饰",
+    "subcategory": "Food",
+    "motif_key": "tabler-outline-meat",
+    "file_path": "item-031/icons/meat.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/meat",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/meat.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "258a64877bb9b428e8271d01c33d7265e5a78d32dbb234973c2340c021b774f6",
+    "extra_paths": [
+      "item-031/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-mushroom",
+    "name_zh": "mushroom 图标",
+    "name_en": "mushroom",
+    "category": "特殊装饰",
+    "subcategory": "Food",
+    "motif_key": "tabler-outline-mushroom",
+    "file_path": "item-032/icons/mushroom.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/mushroom",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/mushroom.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "f01ef8f57dad889c75abaebb4173628ce1529e4ec82873a0309705511e8738ff",
+    "extra_paths": [
+      "item-032/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-salad",
+    "name_zh": "salad 图标",
+    "name_en": "salad",
+    "category": "特殊装饰",
+    "subcategory": "Food",
+    "motif_key": "tabler-outline-salad",
+    "file_path": "item-033/icons/salad.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/salad",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/salad.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "479b73d9b4106fc3a47b51706eaef7aae9a9b4be5fb3cd4228ce33b0c378c191",
+    "extra_paths": [
+      "item-033/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-soup",
+    "name_zh": "soup 图标",
+    "name_en": "soup",
+    "category": "特殊装饰",
+    "subcategory": "Food",
+    "motif_key": "tabler-outline-soup",
+    "file_path": "item-034/icons/soup.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/soup",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/soup.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "bd11db14f8e28fd51b1f9a6bca82eb13f0730d525bf267a1907b7cd6bf971cb4",
+    "extra_paths": [
+      "item-034/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-ambulance",
+    "name_zh": "ambulance 图标",
+    "name_en": "ambulance",
+    "category": "特殊装饰",
+    "subcategory": "Vehicles",
+    "motif_key": "tabler-outline-ambulance",
+    "file_path": "item-035/icons/ambulance.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/ambulance",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/ambulance.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "3b1b7d5fba901a82caa78345e4727b717c6c750264201636efa051a7516ea467",
+    "extra_paths": [
+      "item-035/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-bike",
+    "name_zh": "bike 图标",
+    "name_en": "bike",
+    "category": "特殊装饰",
+    "subcategory": "Vehicles",
+    "motif_key": "tabler-outline-bike",
+    "file_path": "item-036/icons/bike.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/bike",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/bike.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "a92d36b511cf6c05f2d637f121885cb6378bc00966d5537df550f6144ce4e279",
+    "extra_paths": [
+      "item-036/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-bus",
+    "name_zh": "bus 图标",
+    "name_en": "bus",
+    "category": "特殊装饰",
+    "subcategory": "Vehicles",
+    "motif_key": "tabler-outline-bus",
+    "file_path": "item-037/icons/bus.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/bus",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/bus.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "285b844170334ed572185ac4af2f4fd1ca987c4a08e259ddf820a67b849c6ec5",
+    "extra_paths": [
+      "item-037/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-helicopter",
+    "name_zh": "helicopter 图标",
+    "name_en": "helicopter",
+    "category": "特殊装饰",
+    "subcategory": "Vehicles",
+    "motif_key": "tabler-outline-helicopter",
+    "file_path": "item-038/icons/helicopter.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/helicopter",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/helicopter.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "fe7cd51afcfbe9ead11a287154361f6ad78d09d7ba01a0f4c8d6d1eba7882dc3",
+    "extra_paths": [
+      "item-038/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-plane",
+    "name_zh": "plane 图标",
+    "name_en": "plane",
+    "category": "特殊装饰",
+    "subcategory": "Vehicles",
+    "motif_key": "tabler-outline-plane",
+    "file_path": "item-039/icons/plane.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/plane",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/plane.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "cf920f7ddfcb7eed23ddfb259810086a47100740a8fa6377e9be226635cdd8ed",
+    "extra_paths": [
+      "item-039/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-sailboat",
+    "name_zh": "sailboat 图标",
+    "name_en": "sailboat",
+    "category": "特殊装饰",
+    "subcategory": "Vehicles",
+    "motif_key": "tabler-outline-sailboat",
+    "file_path": "item-040/icons/sailboat.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/sailboat",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/sailboat.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "4fe9bb036d9093b37e1a28d32123610ada7802722712154f6b9d79710fd14d84",
+    "extra_paths": [
+      "item-040/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-submarine",
+    "name_zh": "submarine 图标",
+    "name_en": "submarine",
+    "category": "特殊装饰",
+    "subcategory": "Vehicles",
+    "motif_key": "tabler-outline-submarine",
+    "file_path": "item-041/icons/submarine.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/submarine",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/submarine.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "7911ae409098825f094fb61c9d66a8e202eabccebc6d952abdb1661fb0b8380a",
+    "extra_paths": [
+      "item-041/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-tractor",
+    "name_zh": "tractor 图标",
+    "name_en": "tractor",
+    "category": "特殊装饰",
+    "subcategory": "Vehicles",
+    "motif_key": "tabler-outline-tractor",
+    "file_path": "item-042/icons/tractor.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/tractor",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/tractor.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "9f0e79fe4b2f13db2e1b508c502bf781210a1f066de1971912dd7edd02b27357",
+    "extra_paths": [
+      "item-042/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-ball-baseball",
+    "name_zh": "ball-baseball 图标",
+    "name_en": "ball baseball",
+    "category": "特殊装饰",
+    "subcategory": "Sport",
+    "motif_key": "tabler-outline-ball-baseball",
+    "file_path": "item-043/icons/ball-baseball.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/ball-baseball",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/ball-baseball.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "59eb3e0f6e787c3d2a8e31d256bd2c41417783ddcc5b4a0a3af60221e6a35dce",
+    "extra_paths": [
+      "item-043/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-ball-basketball",
+    "name_zh": "ball-basketball 图标",
+    "name_en": "ball basketball",
+    "category": "特殊装饰",
+    "subcategory": "Sport",
+    "motif_key": "tabler-outline-ball-basketball",
+    "file_path": "item-044/icons/ball-basketball.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/ball-basketball",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/ball-basketball.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "01b151341d430ca959b2ad7194a8fdb926853c5221fe0296d616dd1474d3f5dc",
+    "extra_paths": [
+      "item-044/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-bowling",
+    "name_zh": "bowling 图标",
+    "name_en": "bowling",
+    "category": "特殊装饰",
+    "subcategory": "Sport",
+    "motif_key": "tabler-outline-bowling",
+    "file_path": "item-045/icons/bowling.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/bowling",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/bowling.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "41835a67272c46517b0976c57f26b444923866afd337f677f718210851d85eea",
+    "extra_paths": [
+      "item-045/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-golf",
+    "name_zh": "golf 图标",
+    "name_en": "golf",
+    "category": "特殊装饰",
+    "subcategory": "Sport",
+    "motif_key": "tabler-outline-golf",
+    "file_path": "item-046/icons/golf.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/golf",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/golf.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "ef06f64a2766c6a33c980ea0c8c0605831c7da845ed0a9756c55f81ac1a8b7f3",
+    "extra_paths": [
+      "item-046/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-jump-rope",
+    "name_zh": "jump-rope 图标",
+    "name_en": "jump rope",
+    "category": "特殊装饰",
+    "subcategory": "Sport",
+    "motif_key": "tabler-outline-jump-rope",
+    "file_path": "item-047/icons/jump-rope.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/jump-rope",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/jump-rope.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "2ca1089dd6027379aec8a3426662a09cc3f2a155e7528325c01a983d75a480f6",
+    "extra_paths": [
+      "item-047/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-kayak",
+    "name_zh": "kayak 图标",
+    "name_en": "kayak",
+    "category": "特殊装饰",
+    "subcategory": "Sport",
+    "motif_key": "tabler-outline-kayak",
+    "file_path": "item-048/icons/kayak.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/kayak",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/kayak.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "fceaa28ecdf3828754d9ee62fe1669ef5a88794bb6e6687e60494b15e1898347",
+    "extra_paths": [
+      "item-048/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-swimming",
+    "name_zh": "swimming 图标",
+    "name_en": "swimming",
+    "category": "特殊装饰",
+    "subcategory": "Sport",
+    "motif_key": "tabler-outline-swimming",
+    "file_path": "item-049/icons/swimming.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/swimming",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/swimming.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "bdedd6c2861c7f803eddbcc1e62e12cb7b7da23623ef7a47507aa1ff3e29310f",
+    "extra_paths": [
+      "item-049/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-database",
+    "name_zh": "database 图标",
+    "name_en": "database",
+    "category": "特殊装饰",
+    "subcategory": "Database",
+    "motif_key": "tabler-outline-database",
+    "file_path": "item-050/icons/database.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/database",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/database.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "66db91b74bf76624aab59c0d47defd696d7367913ea646dfe4fcecbabdf6bee4",
+    "extra_paths": [
+      "item-050/Tabler-LICENSE.txt"
+    ]
+  }
+]
