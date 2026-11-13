@@ -132,10 +132,22 @@
       "quality_filtered": 0,
       "visual_review": "pending_cross_library",
       "history_candidates_counted": 0
+    },
+    {
+      "batch": "012",
+      "accepted": 10,
+      "by_type": {
+        "图表与信息图": 10
+      },
+      "duplicate_filtered": 0,
+      "license_filtered": 0,
+      "quality_filtered": 0,
+      "visual_review": "pending_cross_library",
+      "history_candidates_counted": 0
     }
   ],
-  "total_accepted": 156,
-  "next_batch": "012",
+  "total_accepted": 166,
+  "next_batch": "013",
   "remaining_scope": [
     "特殊装饰",
     "字体",
@@ -144,5 +156,5 @@
     "设计案例与组件持续扩充"
   ],
   "baseline_count": 3002,
-  "resume": "在仓库根目录运行 python3 新增资源/tools/finalize.py 新增资源 012 <本机旧库索引.sqlite>；先按 tools/README.md 准备并审核对应批次，随后只提交新增资源目录。"
+  "resume": "在仓库根目录运行 python3 新增资源/tools/finalize.py 新增资源 013 <本机旧库索引.sqlite>；先按 tools/README.md 准备并审核对应批次，随后只提交新增资源目录。"
 }

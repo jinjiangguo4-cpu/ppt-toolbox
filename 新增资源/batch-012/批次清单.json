@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "batch": "012",
+  "accepted": 10,
+  "by_type": {
+    "图表与信息图": 10
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "real50-chart-cash-aging",
+    "real50-chart-utilization-by-room",
+    "real50-chart-reservoir-storage",
+    "real50-chart-ticket-reopened",
+    "real50-chart-heat-risk-hours",
+    "real50-chart-disposition-latency",
+    "real50-chart-shift-change",
+    "real50-chart-prototype-repeatability",
+    "real50-chart-consent-funnel",
+    "real50-chart-supplier-loss"
+  ]
+}

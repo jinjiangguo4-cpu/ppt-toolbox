@@ -5528,6 +5528,316 @@
       "local_storage_allowed": true,
       "customer_ppt_allowed": true,
       "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-chart-cash-aging",
+      "name_zh": "应收账款账龄迁移",
+      "name_en": "cash aging",
+      "category": "图表与信息图",
+      "subcategory": "stack",
+      "keywords_zh": [
+        "财务",
+        "应收账款账龄迁移"
+      ],
+      "industries": [
+        "财务"
+      ],
+      "motif_key": "cash-aging",
+      "file_path": "batch-012/item-001/图表与信息图/cash-aging.pptx",
+      "editability": "native-chart-with-workbook",
+      "powerpoint_app_verification": "未完成 PowerPoint 实测",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "c62f31b36310504e4ff6fe2f14ea1463c36499195450aeddfef3f64cc3991758",
+      "quality_status": "passed_package_native_objects_and_render_review",
+      "library": "component",
+      "batch": "012",
+      "format": "pptx",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-chart-utilization-by-room",
+      "name_zh": "按教室比较空闲时段占比",
+      "name_en": "utilization by room",
+      "category": "图表与信息图",
+      "subcategory": "percent",
+      "keywords_zh": [
+        "教育",
+        "按教室比较空闲时段占比"
+      ],
+      "industries": [
+        "教育"
+      ],
+      "motif_key": "utilization-by-room",
+      "file_path": "batch-012/item-002/图表与信息图/utilization-by-room.pptx",
+      "editability": "native-chart-with-workbook",
+      "powerpoint_app_verification": "未完成 PowerPoint 实测",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "65582f0c30f871d23b4feeb5e8d93da7bb435ac6ab1e1e8fc62779398888dc76",
+      "quality_status": "passed_package_native_objects_and_render_review",
+      "library": "component",
+      "batch": "012",
+      "format": "pptx",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-chart-reservoir-storage",
+      "name_zh": "水库水位与预警线",
+      "name_en": "reservoir storage",
+      "category": "图表与信息图",
+      "subcategory": "line",
+      "keywords_zh": [
+        "水利",
+        "水库水位与预警线"
+      ],
+      "industries": [
+        "水利"
+      ],
+      "motif_key": "reservoir-storage",
+      "file_path": "batch-012/item-003/图表与信息图/reservoir-storage.pptx",
+      "editability": "native-chart-with-workbook",
+      "powerpoint_app_verification": "未完成 PowerPoint 实测",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "0ffa32e9910e2b8766a7e78da1de217f25f384f626dc50e7071b53b6940caea6",
+      "quality_status": "passed_package_native_objects_and_render_review",
+      "library": "component",
+      "batch": "012",
+      "format": "pptx",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-chart-ticket-reopened",
+      "name_zh": "复开工单原因构成",
+      "name_en": "ticket reopened",
+      "category": "图表与信息图",
+      "subcategory": "doughnut",
+      "keywords_zh": [
+        "服务管理",
+        "复开工单原因构成"
+      ],
+      "industries": [
+        "服务管理"
+      ],
+      "motif_key": "ticket-reopened",
+      "file_path": "batch-012/item-004/图表与信息图/ticket-reopened.pptx",
+      "editability": "native-chart-with-workbook",
+      "powerpoint_app_verification": "未完成 PowerPoint 实测",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "15ea654857bbc6ae07199932d6e14b58141a71ae7f1b32e8ae10ba0bc78c0847",
+      "quality_status": "passed_package_native_objects_and_render_review",
+      "library": "component",
+      "batch": "012",
+      "format": "pptx",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-chart-heat-risk-hours",
+      "name_zh": "巡检时段热暴露矩阵",
+      "name_en": "heat risk hours",
+      "category": "图表与信息图",
+      "subcategory": "heat",
+      "keywords_zh": [
+        "设施运维",
+        "巡检时段热暴露矩阵"
+      ],
+      "industries": [
+        "设施运维"
+      ],
+      "motif_key": "heat-risk-hours",
+      "file_path": "batch-012/item-005/图表与信息图/heat-risk-hours.pptx",
+      "editability": "native-shapes-and-text",
+      "powerpoint_app_verification": "未完成 PowerPoint 实测",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "af9a2b8dda5534ceb7232cc7676ac343f268d012ea97d5609cd8992c98e24d6a",
+      "quality_status": "passed_package_native_objects_and_render_review",
+      "library": "component",
+      "batch": "012",
+      "format": "pptx",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-chart-disposition-latency",
+      "name_zh": "退货审批耗时分布",
+      "name_en": "disposition latency",
+      "category": "图表与信息图",
+      "subcategory": "hist",
+      "keywords_zh": [
+        "电商售后",
+        "退货审批耗时分布"
+      ],
+      "industries": [
+        "电商售后"
+      ],
+      "motif_key": "disposition-latency",
+      "file_path": "batch-012/item-006/图表与信息图/disposition-latency.pptx",
+      "editability": "native-chart-with-workbook",
+      "powerpoint_app_verification": "未完成 PowerPoint 实测",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "13dbb9e12d1ceb9b41827f1f812224b289469ab4e36c04ae8f7021cd70cbbe1a",
+      "quality_status": "passed_package_native_objects_and_render_review",
+      "library": "component",
+      "batch": "012",
+      "format": "pptx",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-chart-shift-change",
+      "name_zh": "换班后设备恢复事件轴",
+      "name_en": "shift change",
+      "category": "图表与信息图",
+      "subcategory": "timeline",
+      "keywords_zh": [
+        "制造运维",
+        "换班后设备恢复事件轴"
+      ],
+      "industries": [
+        "制造运维"
+      ],
+      "motif_key": "shift-change",
+      "file_path": "batch-012/item-007/图表与信息图/shift-change.pptx",
+      "editability": "native-shapes-and-text",
+      "powerpoint_app_verification": "未完成 PowerPoint 实测",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "3e8ed2efc4b3b51e4f6f45eaf793e3be93cc7b91b76fb50efcd962d713b95615",
+      "quality_status": "passed_package_native_objects_and_render_review",
+      "library": "component",
+      "batch": "012",
+      "format": "pptx",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-chart-prototype-repeatability",
+      "name_zh": "原型测试读数与重复性",
+      "name_en": "prototype repeatability",
+      "category": "图表与信息图",
+      "subcategory": "range",
+      "keywords_zh": [
+        "产品测试",
+        "原型测试读数与重复性"
+      ],
+      "industries": [
+        "产品测试"
+      ],
+      "motif_key": "prototype-repeatability",
+      "file_path": "batch-012/item-008/图表与信息图/prototype-repeatability.pptx",
+      "editability": "native-shapes-and-text",
+      "powerpoint_app_verification": "未完成 PowerPoint 实测",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "0c09a6e4a068d7128a47fce775edd640690e07f39799506c71c9bad89a911a37",
+      "quality_status": "passed_package_native_objects_and_render_review",
+      "library": "component",
+      "batch": "012",
+      "format": "pptx",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-chart-consent-funnel",
+      "name_zh": "招募知情同意流程漏斗",
+      "name_en": "consent funnel",
+      "category": "图表与信息图",
+      "subcategory": "funnel",
+      "keywords_zh": [
+        "用户研究",
+        "招募知情同意流程漏斗"
+      ],
+      "industries": [
+        "用户研究"
+      ],
+      "motif_key": "consent-funnel",
+      "file_path": "batch-012/item-009/图表与信息图/consent-funnel.pptx",
+      "editability": "native-shapes-and-text",
+      "powerpoint_app_verification": "未完成 PowerPoint 实测",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "1cdb21856d2da1b1a819f76ed881af5cbb6bc310eae2029616da3b2df050714d",
+      "quality_status": "passed_package_native_objects_and_render_review",
+      "library": "component",
+      "batch": "012",
+      "format": "pptx",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "real50-chart-supplier-loss",
+      "name_zh": "供货缺口的增减拆解",
+      "name_en": "supplier loss",
+      "category": "图表与信息图",
+      "subcategory": "bridge",
+      "keywords_zh": [
+        "物流采购",
+        "供货缺口的增减拆解"
+      ],
+      "industries": [
+        "物流采购"
+      ],
+      "motif_key": "supplier-loss",
+      "file_path": "batch-012/item-010/图表与信息图/supplier-loss.pptx",
+      "editability": "native-shapes-and-text",
+      "powerpoint_app_verification": "未完成 PowerPoint 实测",
+      "license": "CC0-1.0",
+      "author": "PPT Toolbox",
+      "sha256": "7a8a5643f16593bd10826fd18371ed88a7c5453d3e294196c05529c88c823a78",
+      "quality_status": "passed_package_native_objects_and_render_review",
+      "library": "component",
+      "batch": "012",
+      "format": "pptx",
+      "companion_files": [],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
     }
   ]
 }
