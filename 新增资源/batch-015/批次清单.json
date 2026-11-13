@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "batch": "015",
+  "accepted": 6,
+  "by_type": {
+    "特殊装饰": 6
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "tabler-outline-mail-exclamation",
+    "tabler-outline-mailbox",
+    "tabler-outline-message-chatbot",
+    "tabler-outline-message-language",
+    "tabler-outline-messages",
+    "tabler-outline-send"
+  ]
+}

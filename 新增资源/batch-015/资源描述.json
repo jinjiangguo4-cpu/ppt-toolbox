@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tabler-outline-mail-exclamation",
+    "name_zh": "mail-exclamation 图标",
+    "name_en": "mail exclamation",
+    "category": "特殊装饰",
+    "subcategory": "Communication",
+    "motif_key": "tabler-outline-mail-exclamation",
+    "file_path": "item-001/icons/mail-exclamation.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/mail-exclamation",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/mail-exclamation.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "9a41c66a427d996e48c7e14bf795ac8c997e817234fbfc50423a3fcb2e8cf924",
+    "extra_paths": [
+      "item-001/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-mailbox",
+    "name_zh": "mailbox 图标",
+    "name_en": "mailbox",
+    "category": "特殊装饰",
+    "subcategory": "Communication",
+    "motif_key": "tabler-outline-mailbox",
+    "file_path": "item-002/icons/mailbox.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/mailbox",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/mailbox.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "a7c2faf733ec673fb9771e56d3fea7b0e4133991e07718b60231b0012a02817d",
+    "extra_paths": [
+      "item-002/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-message-chatbot",
+    "name_zh": "message-chatbot 图标",
+    "name_en": "message chatbot",
+    "category": "特殊装饰",
+    "subcategory": "Communication",
+    "motif_key": "tabler-outline-message-chatbot",
+    "file_path": "item-003/icons/message-chatbot.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/message-chatbot",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/message-chatbot.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "7c25ba483bdec67ed924e466338f4f986ab9368ab437191cf8d370205f0c7447",
+    "extra_paths": [
+      "item-003/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-message-language",
+    "name_zh": "message-language 图标",
+    "name_en": "message language",
+    "category": "特殊装饰",
+    "subcategory": "Communication",
+    "motif_key": "tabler-outline-message-language",
+    "file_path": "item-004/icons/message-language.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/message-language",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/message-language.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "ca821696bb5eb94e2eed733e9b4cd179f85982f7211227b93bc7949023a47b34",
+    "extra_paths": [
+      "item-004/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-messages",
+    "name_zh": "messages 图标",
+    "name_en": "messages",
+    "category": "特殊装饰",
+    "subcategory": "Communication",
+    "motif_key": "tabler-outline-messages",
+    "file_path": "item-005/icons/messages.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/messages",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/messages.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "4c6ad10151ca065561d89918ed9505bff326d8436277bc15a82aff69538071e0",
+    "extra_paths": [
+      "item-005/Tabler-LICENSE.txt"
+    ]
+  },
+  {
+    "id": "tabler-outline-send",
+    "name_zh": "send 图标",
+    "name_en": "send",
+    "category": "特殊装饰",
+    "subcategory": "Communication",
+    "motif_key": "tabler-outline-send",
+    "file_path": "item-006/icons/send.svg",
+    "license": "MIT",
+    "author": "Paweł Kuna and Tabler contributors",
+    "source_project": "Tabler Icons",
+    "original_resource_id": "outline/send",
+    "source_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/icons/outline/send.svg",
+    "license_url": "https://github.com/tabler/tabler-icons/blob/v3.34.1/LICENSE",
+    "editability": "SVG-path-editable",
+    "sha256": "d4570a285547d409ba645fce7604c30758899e8ace7a8408428eae754945ffe2",
+    "extra_paths": [
+      "item-006/Tabler-LICENSE.txt"
+    ]
+  }
+]
