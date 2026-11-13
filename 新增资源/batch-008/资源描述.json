@@ -1,0 +1,138 @@
+[
+  {
+    "id": "pptb008-paper-deckle-edge",
+    "name_zh": "手工纸毛边背景",
+    "name_en": "paper deckle edge",
+    "category": "材质背景",
+    "subcategory": "原创矢量",
+    "keywords_zh": [
+      "手工纸毛边背景",
+      "文献页右侧边缘，正文放左侧"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "paper-deckle-edge",
+    "file_path": "材质背景/paper-deckle-edge.svg",
+    "editability": "SVG-path-editable"
+  },
+  {
+    "id": "pptb008-glazed-crackle-band",
+    "name_zh": "釉面开片边带",
+    "name_en": "glazed crackle band",
+    "category": "材质背景",
+    "subcategory": "原创矢量",
+    "keywords_zh": [
+      "釉面开片边带",
+      "陶瓷与材料工艺封面，右侧保留材质细节"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "glazed-crackle-band",
+    "file_path": "材质背景/glazed-crackle-band.svg",
+    "editability": "SVG-path-editable"
+  },
+  {
+    "id": "pptb008-letterpress-indentation",
+    "name_zh": "压印页框背景",
+    "name_en": "letterpress indentation",
+    "category": "材质背景",
+    "subcategory": "原创矢量",
+    "keywords_zh": [
+      "压印页框背景",
+      "品牌手册与印刷工艺介绍，中心留白"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "letterpress-indentation",
+    "file_path": "材质背景/letterpress-indentation.svg",
+    "editability": "SVG-path-editable"
+  },
+  {
+    "id": "pptb008-quilted-seam-corner",
+    "name_zh": "绗缝针脚角区",
+    "name_en": "quilted seam corner",
+    "category": "材质背景",
+    "subcategory": "原创矢量",
+    "keywords_zh": [
+      "绗缝针脚角区",
+      "服装工艺或家居专题，材质集中在右下角"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "quilted-seam-corner",
+    "file_path": "材质背景/quilted-seam-corner.svg",
+    "editability": "SVG-path-editable"
+  },
+  {
+    "id": "pptb008-perforated-metal-footer",
+    "name_zh": "冲孔金属页脚背景",
+    "name_en": "perforated metal footer",
+    "category": "材质背景",
+    "subcategory": "原创矢量",
+    "keywords_zh": [
+      "冲孔金属页脚背景",
+      "制造设备规格页，下方提供低干扰的工业材质"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "perforated-metal-footer",
+    "file_path": "材质背景/perforated-metal-footer.svg",
+    "editability": "SVG-path-editable"
+  },
+  {
+    "id": "pptb008-woven-cane-margin",
+    "name_zh": "藤编边栏背景",
+    "name_en": "woven cane margin",
+    "category": "材质背景",
+    "subcategory": "原创矢量",
+    "keywords_zh": [
+      "藤编边栏背景",
+      "家居与工艺讲解，左侧窄边保留手工材质"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "woven-cane-margin",
+    "file_path": "材质背景/woven-cane-margin.svg",
+    "editability": "SVG-path-editable"
+  },
+  {
+    "id": "pptb008-architectural-screen-shadow",
+    "name_zh": "建筑格栅投影背景",
+    "name_en": "architectural screen shadow",
+    "category": "材质背景",
+    "subcategory": "原创矢量",
+    "keywords_zh": [
+      "建筑格栅投影背景",
+      "空间设计汇报，阴影集中在右上角"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "architectural-screen-shadow",
+    "file_path": "材质背景/architectural-screen-shadow.svg",
+    "editability": "SVG-path-editable"
+  },
+  {
+    "id": "pptb008-recycled-paper-flecks",
+    "name_zh": "再生纸短纤背景",
+    "name_en": "recycled paper flecks",
+    "category": "材质背景",
+    "subcategory": "原创矢量",
+    "keywords_zh": [
+      "再生纸短纤背景",
+      "可持续材料说明页，分散短纤保留正文可读性"
+    ],
+    "industries": [
+      "all"
+    ],
+    "motif_key": "recycled-paper-flecks",
+    "file_path": "材质背景/recycled-paper-flecks.svg",
+    "editability": "SVG-path-editable"
+  }
+]

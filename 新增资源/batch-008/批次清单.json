@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "batch": "008",
+  "accepted": 8,
+  "by_type": {
+    "材质背景": 8
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "pptb008-paper-deckle-edge",
+    "pptb008-glazed-crackle-band",
+    "pptb008-letterpress-indentation",
+    "pptb008-quilted-seam-corner",
+    "pptb008-perforated-metal-footer",
+    "pptb008-woven-cane-margin",
+    "pptb008-architectural-screen-shadow",
+    "pptb008-recycled-paper-flecks"
+  ]
+}
