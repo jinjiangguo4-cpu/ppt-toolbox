@@ -1,0 +1,15 @@
+{
+  "name": "PuBu",
+  "kind": "sequential",
+  "colors": [
+    "#F1EEF6",
+    "#D0D1E6",
+    "#A6BDDB",
+    "#74A9CF",
+    "#2B8CBE",
+    "#045A8D"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "PuBu",
+  "license": "Apache-2.0"
+}

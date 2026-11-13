@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "pptb007-brewer-bugn",
+      "name_zh": "BuGn 顺序色板",
+      "name_en": "BuGn Sequential palette",
+      "category": "配色",
+      "subcategory": "顺序",
+      "keywords_zh": [
+        "顺序",
+        "色板",
+        "数据可视化"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "brewer-bugn",
+      "file_path": "配色/bugn.svg",
+      "editability": "SVG-path-editable",
+      "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+      "source_page": "BuGn",
+      "original_resource_id": "BuGn",
+      "source_project": "ColorBrewer",
+      "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+      "attribution_required": true,
+      "quality_status": "passed_svg_structure",
+      "library": "palette",
+      "batch": "007",
+      "format": "svg",
+      "sha256": "ed9d9c147ac7c4cc27cfd425eace78a21b50300884f421b75855a751f3c07088",
+      "companion_files": [
+        {
+          "file_path": "配色/bugn.json",
+          "sha256": "c03b2ad640a45684f910e2d9a05eecc4c8bff2806d7bbd08e71938a85674126d"
+        }
+      ],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb007-brewer-bupu",
+      "name_zh": "BuPu 顺序色板",
+      "name_en": "BuPu Sequential palette",
+      "category": "配色",
+      "subcategory": "顺序",
+      "keywords_zh": [
+        "顺序",
+        "色板",
+        "数据可视化"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "brewer-bupu",
+      "file_path": "配色/bupu.svg",
+      "editability": "SVG-path-editable",
+      "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+      "source_page": "BuPu",
+      "original_resource_id": "BuPu",
+      "source_project": "ColorBrewer",
+      "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+      "attribution_required": true,
+      "quality_status": "passed_svg_structure",
+      "library": "palette",
+      "batch": "007",
+      "format": "svg",
+      "sha256": "143faec57e0ef9813995bc31bc12ed1774541c81f485c0f9d857483c617012ab",
+      "companion_files": [
+        {
+          "file_path": "配色/bupu.json",
+          "sha256": "e3752f07161e9bf4669ade0a431aab3be31c80181e77b5f0137f16e3b91856d7"
+        }
+      ],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb007-brewer-gnbu",
+      "name_zh": "GnBu 顺序色板",
+      "name_en": "GnBu Sequential palette",
+      "category": "配色",
+      "subcategory": "顺序",
+      "keywords_zh": [
+        "顺序",
+        "色板",
+        "数据可视化"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "brewer-gnbu",
+      "file_path": "配色/gnbu.svg",
+      "editability": "SVG-path-editable",
+      "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+      "source_page": "GnBu",
+      "original_resource_id": "GnBu",
+      "source_project": "ColorBrewer",
+      "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+      "attribution_required": true,
+      "quality_status": "passed_svg_structure",
+      "library": "palette",
+      "batch": "007",
+      "format": "svg",
+      "sha256": "c5d8d807aab3309b7c513b07b66e1c53e531c4b0b499391b8cfb310f095b8a3b",
+      "companion_files": [
+        {
+          "file_path": "配色/gnbu.json",
+          "sha256": "a8de8e4c24e2df4e04b5229bb272f6e14ed780d00d1c435b3bb0d8d0293d5ea8"
+        }
+      ],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb007-brewer-orrd",
+      "name_zh": "OrRd 顺序色板",
+      "name_en": "OrRd Sequential palette",
+      "category": "配色",
+      "subcategory": "顺序",
+      "keywords_zh": [
+        "顺序",
+        "色板",
+        "数据可视化"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "brewer-orrd",
+      "file_path": "配色/orrd.svg",
+      "editability": "SVG-path-editable",
+      "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+      "source_page": "OrRd",
+      "original_resource_id": "OrRd",
+      "source_project": "ColorBrewer",
+      "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+      "attribution_required": true,
+      "quality_status": "passed_svg_structure",
+      "library": "palette",
+      "batch": "007",
+      "format": "svg",
+      "sha256": "15052c3ae7532f9f3c87c07ee4cbf0db7bd133291cdcedcef72fb124f9852ca6",
+      "companion_files": [
+        {
+          "file_path": "配色/orrd.json",
+          "sha256": "727262a56e13d3e7ba04c86aa14f3f4cc142efe287777cdd4f0d22221b89c512"
+        }
+      ],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb007-brewer-pubu",
+      "name_zh": "PuBu 顺序色板",
+      "name_en": "PuBu Sequential palette",
+      "category": "配色",
+      "subcategory": "顺序",
+      "keywords_zh": [
+        "顺序",
+        "色板",
+        "数据可视化"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "brewer-pubu",
+      "file_path": "配色/pubu.svg",
+      "editability": "SVG-path-editable",
+      "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+      "source_page": "PuBu",
+      "original_resource_id": "PuBu",
+      "source_project": "ColorBrewer",
+      "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+      "attribution_required": true,
+      "quality_status": "passed_svg_structure",
+      "library": "palette",
+      "batch": "007",
+      "format": "svg",
+      "sha256": "fa5138fd82ac9e61f3bd771bbd3e60de449891c160613ef36d996419fd0f10d8",
+      "companion_files": [
+        {
+          "file_path": "配色/pubu.json",
+          "sha256": "4ed499ac5edbe6049a1862e9dc14ca6230439a8e6926da6e62c44284c2557bc0"
+        }
+      ],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb007-brewer-purd",
+      "name_zh": "PuRd 顺序色板",
+      "name_en": "PuRd Sequential palette",
+      "category": "配色",
+      "subcategory": "顺序",
+      "keywords_zh": [
+        "顺序",
+        "色板",
+        "数据可视化"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "brewer-purd",
+      "file_path": "配色/purd.svg",
+      "editability": "SVG-path-editable",
+      "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+      "source_page": "PuRd",
+      "original_resource_id": "PuRd",
+      "source_project": "ColorBrewer",
+      "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+      "attribution_required": true,
+      "quality_status": "passed_svg_structure",
+      "library": "palette",
+      "batch": "007",
+      "format": "svg",
+      "sha256": "007dd39bedff6cac718910fadf10e302ce6f9ea278fd5439a81d70b2535c7813",
+      "companion_files": [
+        {
+          "file_path": "配色/purd.json",
+          "sha256": "98ec4ef76b93fc5068a974ad856e113923fa1c5d0567f914885e920be88d5d40"
+        }
+      ],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb007-brewer-rdpu",
+      "name_zh": "RdPu 顺序色板",
+      "name_en": "RdPu Sequential palette",
+      "category": "配色",
+      "subcategory": "顺序",
+      "keywords_zh": [
+        "顺序",
+        "色板",
+        "数据可视化"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "brewer-rdpu",
+      "file_path": "配色/rdpu.svg",
+      "editability": "SVG-path-editable",
+      "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+      "source_page": "RdPu",
+      "original_resource_id": "RdPu",
+      "source_project": "ColorBrewer",
+      "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+      "attribution_required": true,
+      "quality_status": "passed_svg_structure",
+      "library": "palette",
+      "batch": "007",
+      "format": "svg",
+      "sha256": "76ac61ab0095009a80bdc4f12891611c3787804e72be3c13922f7185e1da0c7b",
+      "companion_files": [
+        {
+          "file_path": "配色/rdpu.json",
+          "sha256": "3da49906ab8e8c584a307733920646b0cb8ccfabe9b709720943f4506fd2252b"
+        }
+      ],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb007-brewer-ylorbr",
+      "name_zh": "YlOrBr 顺序色板",
+      "name_en": "YlOrBr Sequential palette",
+      "category": "配色",
+      "subcategory": "顺序",
+      "keywords_zh": [
+        "顺序",
+        "色板",
+        "数据可视化"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "brewer-ylorbr",
+      "file_path": "配色/ylorbr.svg",
+      "editability": "SVG-path-editable",
+      "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+      "source_page": "YlOrBr",
+      "original_resource_id": "YlOrBr",
+      "source_project": "ColorBrewer",
+      "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+      "attribution_required": true,
+      "quality_status": "passed_svg_structure",
+      "library": "palette",
+      "batch": "007",
+      "format": "svg",
+      "sha256": "eb2a7cbd61b83b7ef7a07603f168d4620ccff0e14abadf4b3ba9511c6cfb113f",
+      "companion_files": [
+        {
+          "file_path": "配色/ylorbr.json",
+          "sha256": "026cc476bdaacef7c496d0cf8d4a4e05cc0cdfdda9f02d089c2c6cf894ae68c6"
+        }
+      ],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    },
+    {
+      "id": "pptb007-brewer-ylorrd",
+      "name_zh": "YlOrRd 顺序色板",
+      "name_en": "YlOrRd Sequential palette",
+      "category": "配色",
+      "subcategory": "顺序",
+      "keywords_zh": [
+        "顺序",
+        "色板",
+        "数据可视化"
+      ],
+      "industries": [
+        "all"
+      ],
+      "motif_key": "brewer-ylorrd",
+      "file_path": "配色/ylorrd.svg",
+      "editability": "SVG-path-editable",
+      "source_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+      "source_page": "YlOrRd",
+      "original_resource_id": "YlOrRd",
+      "source_project": "ColorBrewer",
+      "author": "Cynthia Brewer, Mark Harrower, and The Pennsylvania State University",
+      "license": "Apache-2.0",
+      "license_url": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/LICENCE.txt",
+      "attribution_required": true,
+      "quality_status": "passed_svg_structure",
+      "library": "palette",
+      "batch": "007",
+      "format": "svg",
+      "sha256": "5a94ce0ac049e5c20c90749de4bc2e406c03c2862087861fa6d41db6c17bf08a",
+      "companion_files": [
+        {
+          "file_path": "配色/ylorrd.json",
+          "sha256": "57576621fe629e3774d41d38082b7cfead7daf49672787e3192c971380323990"
+        }
+      ],
+      "commercial_allowed": true,
+      "modification_allowed": true,
+      "local_storage_allowed": true,
+      "customer_ppt_allowed": true,
+      "visual_review": "pending_cross_library"
+    }
+  ]
+}

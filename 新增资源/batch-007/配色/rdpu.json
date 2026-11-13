@@ -1,0 +1,15 @@
+{
+  "name": "RdPu",
+  "kind": "sequential",
+  "colors": [
+    "#FEEBE2",
+    "#FCC5C0",
+    "#FA9FB5",
+    "#F768A1",
+    "#C51B8A",
+    "#7A0177"
+  ],
+  "source": "https://github.com/axismaps/colorbrewer/blob/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/colorbrewer_schemes.js",
+  "original_id": "RdPu",
+  "license": "Apache-2.0"
+}

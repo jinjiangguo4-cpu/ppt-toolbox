@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "batch": "007",
+  "accepted": 9,
+  "by_type": {
+    "配色": 9
+  },
+  "duplicate_filtered": 0,
+  "license_filtered": 0,
+  "quality_filtered": 0,
+  "visual_review": "pending_cross_library",
+  "history_candidates_counted": 0,
+  "assets": [
+    "pptb007-brewer-bugn",
+    "pptb007-brewer-bupu",
+    "pptb007-brewer-gnbu",
+    "pptb007-brewer-orrd",
+    "pptb007-brewer-pubu",
+    "pptb007-brewer-purd",
+    "pptb007-brewer-rdpu",
+    "pptb007-brewer-ylorbr",
+    "pptb007-brewer-ylorrd"
+  ]
+}
