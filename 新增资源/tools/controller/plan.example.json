@@ -1,0 +1,10 @@
+{
+  "packs": [
+    {
+      "directory": "approved-pack",
+      "original_cc0": true,
+      "documents": [],
+      "approved": {}
+    }
+  ]
+}
