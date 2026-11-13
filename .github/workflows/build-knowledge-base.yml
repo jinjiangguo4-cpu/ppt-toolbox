@@ -8,9 +8,9 @@ on:
         options: [smoke, production]
         default: smoke
       target:
-        description: Qualified additions for this run (1–882)
+        description: Qualified additions counted in run.json (1–3400)
         type: number
-        default: 882
+        default: 832
 concurrency:
   group: ppt-knowledge-base
   cancel-in-progress: false
@@ -34,16 +34,19 @@ jobs:
     timeout-minutes: 120
     steps:
       - name: Resume production on persistent checkout
-        shell: pwsh
+        shell: bash
         env:
           REQUESTED_TARGET: ${{ inputs.target }}
         run: |
-          $ErrorActionPreference = 'Stop'
-          $target = [int]$env:REQUESTED_TARGET
-          if ($target -lt 1 -or $target -gt 882) { throw 'Target must be 1–882' }
-          $root = $env:PPT_KB_HOME
-          if (-not $root) { throw 'PPT_KB_HOME must point to the private persistent data directory' }
-          $repo = Join-Path $root 'toolbox'
-          $entry = Join-Path $repo '新增资源/tools/controller/run_knowledge_base_batch.py'
-          python $entry --repo $repo --baseline (Join-Path $root 'index.sqlite') --plan (Join-Path $root 'plan.json') --state (Join-Path $root 'run.json') --target $target
-          exit $LASTEXITCODE
+          set -euo pipefail
+          target="$REQUESTED_TARGET"
+          if ! [[ "$target" =~ ^[0-9]+$ ]] || [ "$target" -lt 1 ] || [ "$target" -gt 3400 ]; then
+            echo "Target must be 1-3400" >&2; exit 1
+          fi
+          root="${PPT_KB_HOME:?PPT_KB_HOME must point to the private persistent data directory}"
+          py="$(command -v python3 || command -v python)"
+          repo="$root/toolbox"
+          args=(--repo "$repo" --baseline "$root/index.sqlite" --plan "$root/plan.json" --state "$root/run.json" --target "$target")
+          [ -f "$root/approvals.json" ] && args+=(--approvals "$root/approvals.json")
+          # Exit 3 means a clean run that ran out of approved candidates before the target.
+          "$py" "$repo/新增资源/tools/controller/run_knowledge_base_batch.py" "${args[@]}"

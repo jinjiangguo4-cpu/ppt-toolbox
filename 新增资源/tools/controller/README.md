@@ -26,3 +26,12 @@ py -3 C:\PPT\toolbox\新增资源\tools\controller\run_knowledge_base_batch.py -
 在仓库 Actions 中选择 Build PPT knowledge base。smoke 使用公开托管执行器和合成测试基线，验证流水线，不发布资源。production 使用带 `ppt-kb-private` 标签的授权自托管执行器，需要 PowerShell 7、Python、Git、写入凭据，以及已同步至 main 的独立检出。将 `PPT_KB_HOME` 设置为只允许该执行账号访问的持久目录，内含 toolbox 检出、index.sqlite、plan.json 和运行后产生的 run.json。私有素材及状态不上传到 Actions。不要用该执行器运行不可信代码。中断后以同一 target 重启。单次生产限时两小时，无计划触发或自动自触发。
 
 计划可在 categories 中按索引分类设置 target 和 batch_size（1–50），每类达到上限后自动切换。类别目标指本轮新增。现有验证器能自动处理合规 SVG、SVG/JSON 配色及单页原生 PPTX，其余格式尚未接入。候选源应在私有计划中分别配置，并附可审阅的许可与预审签名。
+
+## 续跑、审核签名与退出码（2026-11 修订）
+
+- 来源只有在“完整消耗”后才会被跳过。失败来源、仍有未放行条目的来源每次重启都会重新读取；`directory` 来源实时读取，`command` 来源按来源 id 缓存。状态文件 `review` 字段按来源记录每个未放行条目的原因，`stats` 只统计最近一次运行。
+- 审核签名可放在计划之外的私有文件，用 `--approvals` 传入（可重复）。改动该文件不会使 run.json 失效，同一状态文件可以继续使用。格式：`{"approved":{id:签名},"name_cleared":[id,…]}`，也接受纯 `{id:签名}`。`name_cleared` 仅用于已人工确认、与旧库只有名称相同的条目。
+- `sign_approvals.py --root <来源目录> --ids <文件> --out <approvals.json>` 为人工审核过的 id 生成签名，已存在的输出文件会合并。不要对未看过的素材使用 `--all`。
+- 退出码 3 表示运行正常，但已放行候选不足以达到目标（`shortfall` > 0）。0 表示达到目标。
+- `PPT_KB_HOME` 下可放 `approvals.json`，工作流会自动传入。工作流使用 bash 与 `python3`（缺少时回退到 `python`），不再需要 PowerShell。
+- 本机旧库副本：`~/PPT-KB/private/index.sqlite`，SHA-256 以 `69d4e2ff643242257e3d` 开头。

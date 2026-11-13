@@ -38,7 +38,26 @@ def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def validate(root, row, pack, supply_only=False):
+def signature(root, row):
+    """Approval signature: SHA-256 over LF-joined payload hashes (main file, then extra_paths)."""
+    files = [inside(root, row["file_path"]), *[inside(root, n) for n in row.get("extra_paths", [])]]
+    return hashlib.sha256("\n".join(sha(p) for p in files).encode()).hexdigest()
+
+
+def load_approvals(paths):
+    """Merge private approval files: flat {id: signature} or {"approved": {...}, "name_cleared": [ids]}."""
+    approved, cleared = {}, set()
+    for path in paths or []:
+        data = read(path)
+        if "approved" in data or "name_cleared" in data:
+            approved.update(data.get("approved", {}))
+            cleared.update(data.get("name_cleared", []))
+        else:
+            approved.update(data)
+    return approved, cleared
+
+
+def validate(root, row, pack, supply_only=False, approved=None):
     path = inside(root, row["file_path"])
     if row["license"] not in {"CC0-1.0", "Apache-2.0", "MIT"}:
         raise ValueError("License needs review")
@@ -107,8 +126,8 @@ def validate(root, row, pack, supply_only=False):
     else:
         raise ValueError("Unsupported format for automatic admission")
     # Approval binds the full payload to a human-reviewed pack, including companion bytes.
-    signature = hashlib.sha256("\n".join(sha(p) for p in [path,*extras]).encode()).hexdigest()
-    if not supply_only and pack.get("approved",{}).get(row["id"]) != signature:
+    expected = signature(root, row)
+    if not supply_only and {**pack.get("approved",{}),**(approved or {})}.get(row["id"]) != expected:
         raise ValueError("Visual or design review required")
     return sha(path)
 
@@ -123,12 +142,18 @@ def main():
     cli.add_argument("--remote", default="origin")
     cli.add_argument("--branch", default="main")
     cli.add_argument("--supply-only", action="store_true")
+    cli.add_argument("--approvals", type=Path, action="append",
+                     help="Private approval file kept outside the checkout; changing it never invalidates run state.")
     args = cli.parse_args()
     repo, baseline, plan, status = (getattr(args,n).resolve() for n in ("repo","baseline","plan","state"))
     if status.is_relative_to(repo) or baseline.is_relative_to(repo):
         cli.error("Keep private baseline and run state outside the publication checkout.")
     if not 1<=args.batch_size<=50 or args.target<1:
         cli.error("Batch size must be 1–50 and target must be positive.")
+    approval_files = [p.resolve() for p in args.approvals or []]
+    if any(p.is_relative_to(repo) for p in approval_files):
+        cli.error("Keep approval files outside the publication checkout.")
+    approved_map, name_cleared = load_approvals(approval_files)
     status.parent.mkdir(parents=True,exist_ok=True)
     lock = sqlite3.connect(status.with_suffix(".lock.sqlite"),timeout=0)
     lock.execute("BEGIN EXCLUSIVE")
@@ -202,8 +227,10 @@ def main():
         raise RuntimeError("Checkout must remain clean and synchronized.")
     if state["completed"]>=args.target:
         return
-    stats = Counter(state.get("stats",{}))
-    by_category = Counter(state.get("eligible_by_category",{}))
+    # Stats describe this invocation only; sources are rescanned on every restart.
+    stats = Counter()
+    by_category = Counter()
+    review_log = state.setdefault("review",{})
     configuration=read(plan)
     sources=configuration.get("sources",configuration.get("packs",[]))
     limits=configuration.get("categories",{})
@@ -213,18 +240,21 @@ def main():
     history=state.setdefault("source_history",{})
     for source_index, pack in enumerate(sources):
         source_id=str(pack.get("id",source_index))
-        if source_id in history or state["completed"]>=args.target:
+        # Only fully consumed sources are skipped. Failed or partly unresolved sources are retried,
+        # so late-generated files, new approvals and cleared name collisions are picked up on restart.
+        if history.get(source_id,{}).get("status")=="complete" or state["completed"]>=args.target:
             continue
         try:
             with TemporaryDirectory(prefix="ppt-production-") as tmp:
                 stage = Path(tmp)
                 packs = [pack]
                 candidates=[]
+                unresolved={}
                 for i,pack in enumerate(packs):
                     root=stage/str(i)
                     root.mkdir()
-                    cached=status.parent/(status.stem+".sources")/str(source_index)
-                    if cached.exists():
+                    cached=status.parent/(status.stem+".sources")/re.sub(r"[^A-Za-z0-9_-]","_",source_id)
+                    if "command" in pack and cached.exists():
                         shutil.copytree(cached,root,dirs_exist_ok=True)
                     elif "command" in pack:
                         command=[part.replace("{out}",str(root)).replace("{plan}",str(plan.parent))
@@ -233,14 +263,18 @@ def main():
                     else:
                         shutil.copytree((plan.parent/pack["directory"]).resolve(),root,dirs_exist_ok=True)
                     descriptions=read(root/"资源描述.json")
-                    if not cached.exists():
+                    if "command" in pack and not cached.exists():
                         cached.parent.mkdir(parents=True,exist_ok=True)
-                        incoming=cached.with_suffix(".incoming")
+                        incoming=cached.parent/(cached.name+".incoming")
                         if incoming.exists():
                             shutil.rmtree(incoming)
                         shutil.copytree(root,incoming)
                         incoming.rename(cached)
                     for row in descriptions:
+                        if not isinstance(row,dict) or not row.get("id") or not row.get("category"):
+                            stats["review_or_invalid"]+=1
+                            unresolved[str(row.get("id") if isinstance(row,dict) else None)]="malformed description row"
+                            continue
                         if not args.category or row["category"] in args.category:
                             candidates.append((root,pack,row))
                 prior = read(catalog)["assets"]
@@ -250,7 +284,6 @@ def main():
                 hashes = {r["sha256"] for r in prior}
                 motifs = {r.get("motif_key") for r in prior}
                 prepared=[]
-                pending_review=list(state.get("review_ids",[]))
                 for root,pack,row in candidates:
                     stats["candidates"]+=1
                     try:
@@ -259,10 +292,10 @@ def main():
                         if row["id"] in known or digest in hashes or row.get("motif_key") in motifs:
                             stats["duplicate"]+=1
                             continue
-                        digest=validate(root,row,pack,args.supply_only)
-                    except (ValueError,KeyError,StopIteration,ET.ParseError,OSError):
+                        digest=validate(root,row,pack,args.supply_only,approved_map)
+                    except (ValueError,KeyError,StopIteration,ET.ParseError,OSError) as error:
                         stats["review_or_invalid"]+=1
-                        pending_review.append(row.get("id"))
+                        unresolved[row["id"]]=f"{type(error).__name__}: {error}"
                         continue
                     stats["validated"]+=1
                     known.add(row["id"])
@@ -280,13 +313,17 @@ def main():
                 for (root,pack,row),review in zip(prepared,checked,strict=True):
                     if review["status"]!="pending_review":
                         stats["duplicate"]+=1
-                    elif any(review[k]["content"] for k in ("baseline","accepted_additions","earlier_candidates")):
+                    elif row["id"] not in name_cleared and any(
+                            review[k]["content"] for k in ("baseline","accepted_additions","earlier_candidates")):
                         stats["review_or_invalid"]+=1
-                        pending_review.append(row["id"])
+                        unresolved[row["id"]]="name collision: "+", ".join(sorted(
+                            {h for k in ("baseline","accepted_additions","earlier_candidates") for h in review[k]["content"]}))
                     else:
                         accepted.append((root,pack,row))
                         by_category[row["category"]]+=1
-                state.update(stats=dict(stats),eligible_by_category=dict(by_category),review_ids=pending_review)
+                state.update(stats=dict(stats),eligible_by_category=dict(by_category))
+                review_log[source_id]=unresolved
+                state["review_ids"]=sorted({i for reasons in review_log.values() for i in reasons})
                 if args.supply_only:
                     state.setdefault("test_candidates",[]).extend(row for _,_,row in accepted)
                     state["completed"] += len(accepted)
@@ -343,13 +380,15 @@ def main():
                     recover()
                     published={item[2]["id"] for item in selected}
                     accepted=[item for item in accepted if item[2]["id"] not in published]
-        except (OSError, subprocess.SubprocessError, ValueError) as error:
+                leftover=len(accepted)
+        except (OSError, subprocess.SubprocessError, ValueError, KeyError) as error:
             if state["pending"]:
                 raise
             history[source_id]={"status":"failed","error":str(error)}
             save()
             continue
-        history[source_id]={"status":"processed","candidates":len(candidates)}
+        history[source_id]={"status":"complete" if not unresolved and not leftover else "partial",
+                            "candidates":len(candidates),"unresolved":len(unresolved),"deferred":leftover}
         save()
     state["result"]="target_reached" if state["completed"]>=args.target else "candidate_pool_exhausted"
     state["category_shortfall"]={category:max(0,policy["target"]-state["published_by_category"].get(category,0))
@@ -358,6 +397,9 @@ def main():
     save()
     print(json.dumps(state,ensure_ascii=False,indent=2))
     lock.close()
+    if state["shortfall"] and not args.supply_only:
+        # Exit 3 = ran cleanly but the approved pool could not reach the target.
+        sys.exit(3)
 
 
 if __name__=="__main__":
